@@ -1,4 +1,4 @@
-// Kryszard's Loot Filter test ver 1.0
+// Kryszard's Loot Filter ver 1.0
 
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<100 CLVL<20]:
@@ -40,12 +40,55 @@ ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
 ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
 ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
 
-//GG Items
-ItemDisplay[tow SET !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+//OK UNIQUE Items
+//belts
+ItemDisplay[zlb UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[zvb UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[zhb UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[umc UNI !ETH !ID]: %PURPLE%%NAME%
+//armors
+ItemDisplay[xhn UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[xtp UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[xlt UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[upl UNI !ETH !ID]: %PURPLE%%NAME%
+//gloves
+ItemDisplay[uvg UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[uhg UNI !ETH !ID]: %PURPLE%%NAME%
+//helmets
+ItemDisplay[xh9 UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[usk UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[uhm UNI !ETH !ID]: %GREEN%50/50 %PURPLE%%NAME%
+ItemDisplay[ci2 UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[baa UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[bac UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[dra UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[dre UNI !ETH !ID]: %PURPLE%%NAME%
+//boots
+ItemDisplay[lbt UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[xhb UNI !ETH !ID]: %PURPLE%%NAME%
 
-//TEST with GG eth ITEMS
-ItemDisplay[xrn UNI ETH ID]: %RED%»»»» %GRAY%ETH %PURPLE%%NAME%%RED% ««««
-ItemDisplay[xrn UNI ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+
+//GG Items
+//belts
+ItemDisplay[ulc UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
+ItemDisplay[ulc UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+//armors
+ItemDisplay[xea UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
+ItemDisplay[xea UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[uar UNI ETH !ID]: %GRAY%ETH %GREEN%50/50 %PURPLE%%NAME%
+ItemDisplay[uar UNI !ID]: %RED%»»»» %GREEN%50/50 %PURPLE%%NAME%%RED% ««««
+//helmets
+ItemDisplay[urn UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
+ItemDisplay[urn UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[uap UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
+ItemDisplay[uap UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[ulm UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
+ItemDisplay[ulm UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[ci3 UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
+ItemDisplay[ci3 UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+//boots
+ItemDisplay[xtb UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
+ItemDisplay[xtb UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 
 
 
