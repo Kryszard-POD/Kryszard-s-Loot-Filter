@@ -40,6 +40,9 @@ ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
 ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
 ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
 
+//GG Items
+ItemDisplay[tow SET !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+
 
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[ARMOR UNI ETH]: %GRAY%ETH %GOLD%%NAME%
