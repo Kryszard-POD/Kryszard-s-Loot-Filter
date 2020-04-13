@@ -28,8 +28,8 @@ ItemDisplay[mp3 CLVL>25]:
 ItemDisplay[mp4 CLVL>59]: 
 
 //Essences (Respec Token)
-ItemDisplay[tes]: %GOLD%Suffering [Andariel]
-ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
+ItemDisplay[tes]: %TAN%Suffering [Andariel]
+ItemDisplay[ceh]: %TAN%Hatred [Mephisto]
 ItemDisplay[bet]: %GOLD%Terror [Diablo]
 ItemDisplay[fed]: %RED%Destruction [Baal]
 
