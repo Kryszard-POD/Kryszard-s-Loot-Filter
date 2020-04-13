@@ -28,10 +28,13 @@ ItemDisplay[mp3 CLVL>25]:
 ItemDisplay[mp4 CLVL>59]: 
 
 //Essences (Respec Token)
-ItemDisplay[tes]: %TAN%Suffering [Andariel]
-ItemDisplay[ceh]: %TAN%Hatred [Mephisto]
-ItemDisplay[bet]: %GOLD%Terror [Diablo]
+ItemDisplay[tes]: %RED%Suffering [Andariel]
+ItemDisplay[ceh]: %RED%Hatred [Mephisto]
+ItemDisplay[bet]: %RED%Terror [Diablo]
 ItemDisplay[fed]: %RED%Destruction [Baal]
+
+//PoD Items
+ItemDisplay[cx7]: %RED%»»»» %PURPLE%KEY OF CHAOS%RED% ««««
 
 //Show some items with pricetag
 ItemDisplay[WP12 NMAG]: %NAME% ($%PRICE%)
