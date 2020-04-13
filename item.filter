@@ -46,10 +46,9 @@ ItemDisplay[ARMOR SET]: %NAME%
 ItemDisplay[WEAPON UNI]: %NAME%
 ItemDisplay[WEAPON SET]: %NAME%
 
-// HIDE EVERYTHING ELSE!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
-ItemDisplay[ARMOR]:
-ItemDisplay[WEAPON]:
-
 //Show some items with pricetag
 ItemDisplay[WP12 NMAG]: %NAME% ($%PRICE%)
 
+// HIDE EVERYTHING ELSE!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+ItemDisplay[ARMOR]:
+ItemDisplay[WEAPON]:
