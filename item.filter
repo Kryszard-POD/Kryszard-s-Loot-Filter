@@ -44,6 +44,7 @@ ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
 ItemDisplay[tow SET !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 
 //TEST with GG eth ITEMS
+ItemDisplay[xrn UNI ETH ID]: %RED%»»»» %GRAY%ETH %PURPLE%%NAME%%RED% ««««
 ItemDisplay[xrn UNI ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 
 
