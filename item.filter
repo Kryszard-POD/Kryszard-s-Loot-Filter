@@ -46,8 +46,8 @@ ItemDisplay[ARMOR SET]: %NAME%
 ItemDisplay[WEAPON UNI]: %NAME%
 ItemDisplay[WEAPON SET]: %NAME%
 // SHOW ME THAT UNIQ ITEM IS ETH
-ItemDisplay[ARMOR UNI ETH]: %GRAY%ETH %GOLD%%NAME%
-ItemDisplay[WEAPON UNI ETH]: %GRAY%ETH %GOLD%%NAME%
+ItemDisplay[ARMOR UNI ETH ID]: %GRAY%ETH %GOLD%%NAME%
+ItemDisplay[WEAPON UNI ETH ID]: %GRAY%ETH %GOLD%%NAME%
 
 
 //Show some items with pricetag
