@@ -40,5 +40,16 @@ ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
 ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
 ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
 
+//Show me every uniq and set item
+ItemDisplay[ARMOR UNI]: %NAME%
+ItemDisplay[ARMOR SET]: %NAME%
+ItemDisplay[WEAPON UNI]: %NAME%
+ItemDisplay[WEAPON SET]: %NAME%
+
+// HIDE EVERYTHING ELSE!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+ItemDisplay[ARMOR]:
+ItemDisplay[WEAPON]:
+
 //Show some items with pricetag
 ItemDisplay[WP12 NMAG]: %NAME% ($%PRICE%)
+
