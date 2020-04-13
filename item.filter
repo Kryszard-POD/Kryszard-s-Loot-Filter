@@ -1,4 +1,34 @@
 // Kryszard's Loot Filter test ver 1.0
 
-//test line below
-ItemDisplay[r08]: %ORANGE%Ral 8 [WE DID IT]
+//Hide Gold Piles Smaller Than (<) X
+ItemDisplay[GOLD<100 CLVL<20]:
+ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
+ItemDisplay[GOLD<5000 CLVL>79]:
+
+//Health & Mana Potions
+ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
+ItemDisplay[hp5]: %RED%|%WHITE%H+
+ItemDisplay[mp5]: %BLUE%!%WHITE%M+
+ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
+ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Minor Heal
+ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%Light Heal
+ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%Healing
+ItemDisplay[hp4 CLVL<60]: %RED%!%WHITE%H
+ItemDisplay[hp1 CLVL>14]:
+ItemDisplay[hp2 CLVL>17]:
+ItemDisplay[hp3 CLVL>23]:
+ItemDisplay[hp4 CLVL>59]: 
+ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%Minor Mana
+ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%Light Mana
+ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%Mana
+ItemDisplay[mp4 CLVL<60]: %BLUE%!%WHITE%M
+ItemDisplay[mp1 CLVL>14]:
+ItemDisplay[mp2 CLVL>19]:
+ItemDisplay[mp3 CLVL>25]:
+ItemDisplay[mp4 CLVL>59]: 
+
+//Essences (Respec Token)
+ItemDisplay[tes]: %GOLD%Suffering [Andariel]
+ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
+ItemDisplay[bet]: %GOLD%Terror [Diablo]
+ItemDisplay[fed]: %RED%Destruction [Baal]
