@@ -33,5 +33,5 @@ ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
 ItemDisplay[bet]: %GOLD%Terror [Diablo]
 ItemDisplay[fed]: %RED%Destruction [Baal]
 
-//Show Wands that cost over 3k+
-ItemDisplay[WP12  %PRICE%>3000]: %NAME% ($%PRICE%)
+//Show some items with pricetag
+ItemDisplay[WP12 NMAG]: %NAME% ($%PRICE%)
