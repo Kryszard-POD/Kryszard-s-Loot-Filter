@@ -115,8 +115,26 @@ ItemDisplay[RW]: %NAME%
 //Show some items with pricetag
 ItemDisplay[WP12 NMAG]: %NAME% ($%PRICE%)
 
+//Utilites
+ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
+ItemDisplay[tsc CLVL>40]:
+ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
+ItemDisplay[isc CLVL>40]:
+ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
+ItemDisplay[wms CLVL>59]:
+ItemDisplay[yps]: %GREEN%!%WHITE%a
+ItemDisplay[key]: %GRAY%key
+//Choking, Exploding, Fulminating, Oil, Rancid, Strangling, Stamina 
+ItemDisplay[gpm CLVL>15]:
+ItemDisplay[opm CLVL>15]:
+ItemDisplay[opl CLVL>15]:
+ItemDisplay[ops CLVL>15]:
+ItemDisplay[gps CLVL>15]:
+ItemDisplay[gpl CLVL>15]:
+ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%Stamina
+ItemDisplay[vps CLVL>40]:
+
 
 // HIDE EVERYTHING ELSE!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
 ItemDisplay[ARMOR]:
 ItemDisplay[WEAPON]:
-ItemDisplay[NMAG]:
