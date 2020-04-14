@@ -33,8 +33,13 @@ ItemDisplay[ceh]: %ORANGE%Hatred %GRAY%[Mephisto]
 ItemDisplay[bet]: %ORANGE%Terror %GRAY%[Diablo]
 ItemDisplay[fed]: %ORANGE%Destruction %GRAY%[Baal]
 
+//Uber Keys
+ItemDisplay[pk1]: %ORANGE%Terror %GRAY%[Countess]
+ItemDisplay[pk2]: %ORANGE%Hate %GRAY%[Summoner]
+ItemDisplay[pk3]: %ORANGE%Destruction %GRAY%[Nihlathak]
+
 //PoD Items
-ItemDisplay[cx7]: %RED%»»»» %PURPLE%KEY OF CHAOS%RED% ««««
+ItemDisplay[cx7]: %RED%»»»» %NAME%%RED% ««««
 ItemDisplay[ma2]: %PURPLE%Tier 4 Relic
 ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
 ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
@@ -101,9 +106,8 @@ ItemDisplay[xtb UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 //shields
 ItemDisplay[uit UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 
-// Show me number of sockets in every identified item
-ItemDisplay[ARMOR ID SOCK>0]: %NAME% [%SOCKETS%]
-ItemDisplay[WEAPON ID SOCK>0]: %NAME% [%SOCKETS%]
+
+
 
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI ETH]: %GRAY%ETH %GOLD%%NAME%
