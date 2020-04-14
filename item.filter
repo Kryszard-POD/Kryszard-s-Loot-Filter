@@ -84,7 +84,7 @@ ItemDisplay[r16]: %ORANGE%%RUNENAME% %GRAY%[16]
 ItemDisplay[r17]: %ORANGE%%RUNENAME% %GRAY%[17]
 ItemDisplay[r18]: %ORANGE%%RUNENAME% %WHITE%[18]
 ItemDisplay[r19]: %ORANGE%%RUNENAME% %WHITE%[19]
-ItemDisplay[r20]: %RED%¤ %PURPLE%LEM 20%RED% ¤
+ItemDisplay[r20]: %PURPLE%» %RED%%RUNENAME% %WHITE%[20]%PURPLE% «
 ItemDisplay[r21]: %RED%¤ %PURPLE%PUL 21%RED% ¤
 ItemDisplay[r22]: %RED%¤¤ %PURPLE%UM 22%RED% ¤¤
 ItemDisplay[r23]: %RED%¤¤ %PURPLE%MAL 23%RED% ¤¤
