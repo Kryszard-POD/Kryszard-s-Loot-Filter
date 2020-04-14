@@ -119,3 +119,4 @@ ItemDisplay[WP12 NMAG]: %NAME% ($%PRICE%)
 // HIDE EVERYTHING ELSE!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
 ItemDisplay[ARMOR]:
 ItemDisplay[WEAPON]:
+ItemDisplay[NMAG]:
