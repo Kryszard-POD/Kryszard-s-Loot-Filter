@@ -28,10 +28,10 @@ ItemDisplay[mp3 CLVL>25]:
 ItemDisplay[mp4 CLVL>59]: 
 
 //Essences (Respec Token)
-ItemDisplay[tes]: %RED%Suffering [Andariel]
-ItemDisplay[ceh]: %RED%Hatred [Mephisto]
-ItemDisplay[bet]: %RED%Terror [Diablo]
-ItemDisplay[fed]: %RED%Destruction [Baal]
+ItemDisplay[tes]: %ORANGE%Suffering %GRAY%[Andariel]
+ItemDisplay[ceh]: %ORANGE%Hatred %GRAY%[Mephisto]
+ItemDisplay[bet]: %ORANGE%Terror %GRAY%[Diablo]
+ItemDisplay[fed]: %ORANGE%Destruction %GRAY%[Baal]
 
 //PoD Items
 ItemDisplay[cx7]: %RED%»»»» %PURPLE%KEY OF CHAOS%RED% ««««
@@ -66,6 +66,16 @@ ItemDisplay[dre UNI !ETH !ID]: %PURPLE%%NAME%
 //boots
 ItemDisplay[lbt UNI !ETH !ID]: %PURPLE%%NAME%
 ItemDisplay[xhb UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[uhb UNI !ETH !ID]: %PURPLE%%NAME%
+//jewelry
+ItemDisplay[UNI !ID rin]: %RED%»»»» %PURPLE%UNIQUE RING HYPE %RED% ««««
+ItemDisplay[UNI !ID amu]: %RED%»»»» %PURPLE%UNIQUE AMULET HYPE %RED% ««««
+ItemDisplay[UNI !ID jew]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[SET !ID amu]: »»»» Set Amulet ««««
+//shields
+ItemDisplay[uow UNI !ID]: %PURPLE%%NAME%
+ItemDisplay[pa9 UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[nea UNI !ETH !ID]: %PURPLE%%NAME%
 
 
 //GG Items
@@ -78,7 +88,6 @@ ItemDisplay[xea UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 ItemDisplay[uar UNI ETH !ID]: %GRAY%ETH %GREEN%50/50 %PURPLE%%NAME%
 ItemDisplay[uar UNI !ID]: %RED%»»»» %GREEN%50/50 %PURPLE%%NAME%%RED% ««««
 //helmets
-ItemDisplay[urn UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
 ItemDisplay[urn UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 ItemDisplay[uap UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
 ItemDisplay[uap UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
@@ -89,6 +98,8 @@ ItemDisplay[ci3 UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 //boots
 ItemDisplay[xtb UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
 ItemDisplay[xtb UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+//shields
+ItemDisplay[uit UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 
 
 
