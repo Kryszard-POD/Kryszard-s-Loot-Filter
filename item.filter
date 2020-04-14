@@ -15,14 +15,22 @@ ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
 ItemDisplay[hp5]: %RED%!%WHITE%H+
 ItemDisplay[mp5]: %BLUE%!%WHITE%M+
 ItemDisplay[hp1 DIFFICULTY=0]: %RED%!%WHITE%Minor Heal
-ItemDisplay[hp2 DIFFICULTY=0: %RED%!%WHITE%Light Heal
+ItemDisplay[hp2 DIFFICULTY=0]: %RED%!%WHITE%Light Heal
 ItemDisplay[hp3 DIFFICULTY=0]: %RED%!%WHITE%Healing
 ItemDisplay[hp4 DIFFICULTY<2]: %RED%!%WHITE%Great Heal
 ItemDisplay[mp1 DIFFICULTY=0]: %BLUE%!%WHITE%Minor Mana
 ItemDisplay[mp2 DIFFICULTY=0]: %BLUE%!%WHITE%Light Mana
 ItemDisplay[mp3 DIFFICULTY=0]: %BLUE%!%WHITE%Mana
-ItemDisplay[mp4 DIFFICULTY<2]: %BLUE%!%WHITE%Great Heal
-ItemDisplay[(hp1 AND hp2 AND hp3 AND hp4 AND mp1 AND mp2 AND mp3 AND mp4) DIFFICULTY=2]:
+ItemDisplay[mp4 DIFFICULTY<2]: %BLUE%!%WHITE%Great Mana
+ItemDisplay[hp1 DIFFICULTY=2]:
+ItemDisplay[hp2 DIFFICULTY=2]:
+ItemDisplay[hp3 DIFFICULTY=2]:
+ItemDisplay[hp4 DIFFICULTY=2]:
+ItemDisplay[mp1 DIFFICULTY=2]:
+ItemDisplay[mp2 DIFFICULTY=2]:
+ItemDisplay[mp3 DIFFICULTY=2]:
+ItemDisplay[mp4 DIFFICULTY=2]:
+
 
 //Utilites
 ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
