@@ -99,7 +99,42 @@ ItemDisplay[r31]: %PURPLE%»» »» »» »» »» »» »» »» »» »» %RED
 ItemDisplay[r32]: %PURPLE%»» »» »» %RED%%RUNENAME% %GREEN%[32]%PURPLE% «« «« ««
 ItemDisplay[r33]: %PURPLE%»» »» »» »» %RED%%RUNENAME% %GREEN%[33]%PURPLE% «« «« «« ««
 
-
+//Gems
+ItemDisplay[gfv DIFFICULTY>0]:
+ItemDisplay[gfw DIFFICULTY>0]:
+ItemDisplay[gfg DIFFICULTY>0]:
+ItemDisplay[gfr DIFFICULTY>0]:
+ItemDisplay[gfb DIFFICULTY>0]:
+ItemDisplay[gfy DIFFICULTY>0]:
+ItemDisplay[skf DIFFICULTY>0]:
+ItemDisplay[gsv DIFFICULTY>1]:
+ItemDisplay[gsw DIFFICULTY>1]:
+ItemDisplay[gsg DIFFICULTY>1]:
+ItemDisplay[gsr DIFFICULTY>1]:
+ItemDisplay[gsb DIFFICULTY>1]:
+ItemDisplay[gsy DIFFICULTY>1]:
+ItemDisplay[sku DIFFICULTY>1]:
+ItemDisplay[gcv]: %GRAY%chip
+ItemDisplay[gcw]: %GRAY%chip
+ItemDisplay[gcg]: %GRAY%chip
+ItemDisplay[gcr]: %GRAY%chip
+ItemDisplay[gcb]: %GRAY%chip
+ItemDisplay[gcy]: %GRAY%chip
+ItemDisplay[skc]: %GRAY%chip
+ItemDisplay[gzv]: %ORANGE%Amethyst
+ItemDisplay[glw]: %ORANGE%Diamond
+ItemDisplay[glg]: %ORANGE%Emerald
+ItemDisplay[glr]: %ORANGE%Ruby
+ItemDisplay[glb]: %ORANGE%Sapphire
+ItemDisplay[gly]: %ORANGE%Topaz
+ItemDisplay[skl]: %ORANGE%Skull
+ItemDisplay[gpv]: %WHITE%P %ORANGE%Amethyst
+ItemDisplay[gpw]: %WHITE%P %ORANGE%Diamond
+ItemDisplay[gpg]: %WHITE%P %ORANGE%Emerald
+ItemDisplay[gpr]: %WHITE%P %ORANGE%Ruby
+ItemDisplay[gpb]: %WHITE%P %ORANGE%Sapphire
+ItemDisplay[gpy]: %WHITE%P %ORANGE%Topaz
+ItemDisplay[skz]: %WHITE%P %ORANGE%Skull
 
 //OK UNIQUE Items
 //belts
@@ -132,7 +167,6 @@ ItemDisplay[uhb UNI !ETH !ID]: %PURPLE%%NAME%
 ItemDisplay[UNI !ID rin]: %RED%»»»» %PURPLE%UNIQUE RING HYPE %RED% ««««
 ItemDisplay[UNI !ID amu]: %RED%»»»» %PURPLE%UNIQUE AMULET HYPE %RED% ««««
 ItemDisplay[UNI !ID jew]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
-ItemDisplay[SET !ID amu]: »»»» Set Amulet ««««
 //shields
 ItemDisplay[uow UNI !ID]: %PURPLE%%NAME%
 ItemDisplay[pa9 UNI !ETH !ID]: %PURPLE%%NAME%
@@ -142,7 +176,7 @@ ItemDisplay[7cr UNI !ETH !ID]: %GREEN%½%PURPLE%%NAME%
 ItemDisplay[7fl UNI !ETH !ID]: %GREEN%½%PURPLE%%NAME%
 
 
-//GG Items
+//GG Uniq Items
 //belts
 ItemDisplay[ulc UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
 ItemDisplay[ulc UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
@@ -172,6 +206,14 @@ ItemDisplay[7gd UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 ItemDisplay[obf UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
 ItemDisplay[obf UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 
+//Good set parts
+ItemDisplay[amu SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
+ItemDisplay[xtb SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
+ItemDisplay[uar SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
+ItemDisplay[ci3 SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
+ItemDisplay[7qr SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
+ItemDisplay[uth SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
+
 
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI ETH]: %GRAY%ETH %GOLD%%NAME%
@@ -183,8 +225,11 @@ ItemDisplay[RW]: %NAME%
 
 
 // HIDE EVERYTHING ELSE!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+ItemDisplay[ARMOR (MAG OR RARE) CLVL<60]: %NAME%
+ItemDisplay[WEAPON (MAG OR RARE) CLVL<60]: %NAME%
 ItemDisplay[ARMOR (SUP OR NMAG) !ETH SOCK>1 CLVL<40]: %NAME% [%SOCKETS%]
 ItemDisplay[WEAPON (SUP OR NMAG) !ETH SOCK>1 CLVL<40]: %NAME% [%SOCKETS%]
+ItemDisplay[WEAPON (SUP OR NMAG) ETH SOCK=4 CLVL<60]: %NAME% [%SOCKETS%]
 ItemDisplay[ARMOR (SUP OR NMAG) (EXC OR ELT) !ETH SOCK>1 CLVL>39 AND CLVL<80]: %NAME% [%SOCKETS%]
 ItemDisplay[WEAPON (SUP OR NMAG) (EXC OR ELT) !ETH SOCK>1 CLVL>39 AND CLVL<80]: %NAME% [%SOCKETS%]
 ItemDisplay[ARMOR]:
