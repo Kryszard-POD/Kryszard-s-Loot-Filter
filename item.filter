@@ -69,10 +69,10 @@ ItemDisplay[leg]: %NAME% [%SOCKETS%]
 
 //Arrows and Bolts
 ItemDisplay[aqv CLVL>12]:
-ItemDisplay[aq2 CLVL>12]:
+ItemDisplay[aq2 NMAG CLVL>12]:
 ItemDisplay[aq2 MAG CLVL>40]:
 ItemDisplay[cqv CLVL>12]:
-ItemDisplay[cq2 CLVL>12]:
+ItemDisplay[cq2 NMAG CLVL>12]:
 ItemDisplay[cq2 MAG CLVL>40]:
 
 
