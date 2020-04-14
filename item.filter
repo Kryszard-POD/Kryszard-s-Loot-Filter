@@ -102,7 +102,7 @@ ItemDisplay[xtb UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 ItemDisplay[uit UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 
 // Show me number of sockets in every identified item
-ItemDisplay[(ID AND SOCK>0)]: %NAME% [%SOCKETS%]
+ItemDisplay[(UNI AND SET) SOCK>0]: %NAME% [%SOCKETS%]
 
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI ETH]: %GRAY%ETH %GOLD%%NAME%
