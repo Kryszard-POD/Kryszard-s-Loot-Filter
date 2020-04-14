@@ -10,7 +10,7 @@ ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
 ItemDisplay[hp5]: %RED%!%WHITE%H+
 ItemDisplay[mp5]: %BLUE%!%WHITE%M+
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
-ItemDisplay[hp1 CLVL<15]: %RED%†%WHITE%Minor Heal %GREEN%½
+ItemDisplay[hp1 CLVL<15]: %RED%¦ %WHITE%Minor Heal
 ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%Light Heal
 ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%Healing
 ItemDisplay[hp4 CLVL<60]: %RED%!%WHITE%H
@@ -57,7 +57,7 @@ ItemDisplay[uhg UNI !ETH !ID]: %PURPLE%%NAME%
 //helmets
 ItemDisplay[xh9 UNI !ETH !ID]: %PURPLE%%NAME%
 ItemDisplay[usk UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[uhm UNI !ETH !ID]: %GREEN%50/50 %PURPLE%%NAME%
+ItemDisplay[uhm UNI !ETH !ID]: %GREEN%½ %PURPLE%%NAME%
 ItemDisplay[ci2 UNI !ETH !ID]: %PURPLE%%NAME%
 ItemDisplay[baa UNI !ETH !ID]: %PURPLE%%NAME%
 ItemDisplay[bac UNI !ETH !ID]: %PURPLE%%NAME%
@@ -85,8 +85,8 @@ ItemDisplay[ulc UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 //armors
 ItemDisplay[xea UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
 ItemDisplay[xea UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
-ItemDisplay[uar UNI ETH !ID]: %GRAY%ETH %GREEN%50/50 %PURPLE%%NAME%
-ItemDisplay[uar UNI !ID]: %RED%»»»» %GREEN%50/50 %PURPLE%%NAME%%RED% ««««
+ItemDisplay[uar UNI ETH !ID]: %GRAY%ETH %GREEN%½ %PURPLE%%NAME%
+ItemDisplay[uar UNI !ID]: %RED%»»»» %GREEN%½ %PURPLE%%NAME%%RED% ««««
 //helmets
 ItemDisplay[urn UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 ItemDisplay[uap UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
