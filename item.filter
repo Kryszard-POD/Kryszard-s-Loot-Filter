@@ -85,19 +85,19 @@ ItemDisplay[r17]: %ORANGE%%RUNENAME% %GRAY%[17]
 ItemDisplay[r18]: %ORANGE%%RUNENAME% %WHITE%[18]
 ItemDisplay[r19]: %ORANGE%%RUNENAME% %WHITE%[19]
 ItemDisplay[r20]: %PURPLE%» %RED%%RUNENAME% %WHITE%[20]%PURPLE% «
-ItemDisplay[r21]: %RED%¤ %PURPLE%PUL 21%RED% ¤
-ItemDisplay[r22]: %RED%¤¤ %PURPLE%UM 22%RED% ¤¤
-ItemDisplay[r23]: %RED%¤¤ %PURPLE%MAL 23%RED% ¤¤
-ItemDisplay[r24]: %RED%¤¤¤ %PURPLE%IST 24%RED% ¤¤¤
-ItemDisplay[r25]: %RED%¤¤¤¤ %PURPLE%GUL 25%RED% ¤¤¤¤
-ItemDisplay[r26]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%VEX 26%RED% ¤¤¤¤¤¤¤¤¤¤
-ItemDisplay[r27]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%OHM 27%RED% ¤¤¤¤¤¤¤¤¤¤
-ItemDisplay[r28]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%LO 28%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
-ItemDisplay[r29]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%SUR 29%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
-ItemDisplay[r30]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%BER 30%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
-ItemDisplay[r31]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%JAH 31%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
-ItemDisplay[r32]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%CHAM 32%RED% ¤¤¤¤¤¤¤¤¤¤
-ItemDisplay[r33]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%ZOD 33%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[r21]: %PURPLE%» %RED%%RUNENAME% %WHITE%[21]%PURPLE% «
+ItemDisplay[r22]: %PURPLE%» %RED%%RUNENAME% %WHITE%[22]%PURPLE% «
+ItemDisplay[r23]: %PURPLE%» %RED%%RUNENAME% %WHITE%[23]%PURPLE% «
+ItemDisplay[r24]: %PURPLE%» » %RED%%RUNENAME% %WHITE%[24]%PURPLE% « «
+ItemDisplay[r25]: %PURPLE%» » %RED%%RUNENAME% %WHITE%[25]%PURPLE% « «
+ItemDisplay[r26]: %PURPLE%»» »» %RED%%RUNENAME% %GREEN%[26]%PURPLE% «« ««
+ItemDisplay[r27]: %PURPLE%»» »» »» %RED%%RUNENAME% %GREEN%[27]%PURPLE% «« «« ««
+ItemDisplay[r28]: %PURPLE%»» »» »» »» »» »» %RED%%RUNENAME% %GREEN%[28]%PURPLE% «« «« «« «« «« ««
+ItemDisplay[r29]: %PURPLE%»» »» »» »» %RED%%RUNENAME% %GREEN%[29]%PURPLE% «« «« «« ««
+ItemDisplay[r30]: %PURPLE%»» »» »» »» »» »» »» »» %RED%%RUNENAME% %GREEN%[30]%PURPLE% «« «« «« «« «« «« «« ««
+ItemDisplay[r31]: %PURPLE%»» »» »» »» »» »» »» »» »» »» %RED%%RUNENAME% %GREEN%[31]%PURPLE% «« «« «« «« «« «« «« «« «« ««
+ItemDisplay[r32]: %PURPLE%»» »» »» %RED%%RUNENAME% %GREEN%[32]%PURPLE% «« «« ««
+ItemDisplay[r33]: %PURPLE%»» »» »» »» %RED%%RUNENAME% %GREEN%[33]%PURPLE% «« «« «« ««
 
 
 
