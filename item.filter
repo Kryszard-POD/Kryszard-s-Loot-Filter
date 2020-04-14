@@ -150,9 +150,9 @@ ItemDisplay[vps CLVL>40]:
 
 
 // HIDE EVERYTHING ELSE!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
-ItemDisplay[ARMOR SUP !ETH SOCK>1 CLVL>79]: %NAME% [%SOCKETS%]
-ItemDisplay[WEAPON SUP !ETH SOCK>1 CLVL>79]: %NAME% [%SOCKETS%]
-ItemDisplay[ARMOR NMAG !ETH SOCK>1 CLVL>79]: %NAME% [%SOCKETS%]
-ItemDisplay[WEAPON NMAG !ETH SOCK>1 CLVL>79]: %NAME% [%SOCKETS%]
+ItemDisplay[ARMOR SUP !ETH SOCK>1 CLVL<80]: %NAME% [%SOCKETS%]
+ItemDisplay[WEAPON SUP !ETH SOCK>1 CLVL<80]: %NAME% [%SOCKETS%]
+ItemDisplay[ARMOR NMAG !ETH SOCK>1 CLVL<80]: %NAME% [%SOCKETS%]
+ItemDisplay[WEAPON NMAG !ETH SOCK>1 CLVL<80]: %NAME% [%SOCKETS%]
 ItemDisplay[ARMOR]:
 ItemDisplay[WEAPON]:
