@@ -17,7 +17,7 @@ ItemDisplay[hp4 CLVL<60]: %RED%!%WHITE%H
 ItemDisplay[hp1 CLVL>14]:
 ItemDisplay[hp2 CLVL>17]:
 ItemDisplay[hp3 CLVL>23]:
-ItemDisplay[hp4 CLVL>59]: 
+ItemDisplay[hp4 CLVL>59]:
 ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%Minor Mana
 ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%Light Mana
 ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%Mana
@@ -25,7 +25,26 @@ ItemDisplay[mp4 CLVL<60]: %BLUE%!%WHITE%M
 ItemDisplay[mp1 CLVL>14]:
 ItemDisplay[mp2 CLVL>19]:
 ItemDisplay[mp3 CLVL>25]:
-ItemDisplay[mp4 CLVL>59]: 
+ItemDisplay[mp4 CLVL>59]:
+
+//Utilites
+ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
+ItemDisplay[tsc CLVL>40]:
+ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
+ItemDisplay[isc CLVL>40]:
+ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
+ItemDisplay[wms CLVL>59]:
+ItemDisplay[yps]: %GREEN%!%WHITE%a
+ItemDisplay[key]: %GRAY%key
+//Choking, Exploding, Fulminating, Oil, Rancid, Strangling, Stamina 
+ItemDisplay[gpm CLVL>11]:
+ItemDisplay[opm CLVL>11]:
+ItemDisplay[opl CLVL>11]:
+ItemDisplay[ops CLVL>11]:
+ItemDisplay[gps CLVL>11]:
+ItemDisplay[gpl CLVL>11]:
+ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%Stamina
+ItemDisplay[vps CLVL>40]:
 
 //Essences (Respec Token)
 ItemDisplay[tes]: %ORANGE%Suffering %GRAY%[Andariel]
@@ -44,6 +63,43 @@ ItemDisplay[ma2]: %PURPLE%Tier 4 Relic
 ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
 ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
 ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
+
+//Runes
+ItemDisplay[r01]: %ORANGE%%RUNENAME% %GRAY%[1]
+ItemDisplay[r02]: %ORANGE%%RUNENAME% %GRAY%[2]
+ItemDisplay[r03]: %ORANGE%%RUNENAME% %GRAY%[3]
+ItemDisplay[r04]: %ORANGE%%RUNENAME% %GRAY%[4]
+ItemDisplay[r05]: %ORANGE%%RUNENAME% %GRAY%[5]
+ItemDisplay[r06]: %ORANGE%%RUNENAME% %WHITE%[6]
+ItemDisplay[r07]: %ORANGE%%RUNENAME% %WHITE%[7]
+ItemDisplay[r08]: %ORANGE%%RUNENAME% %WHITE%[8]
+ItemDisplay[r09]: %ORANGE%%RUNENAME% %WHITE%[9]
+ItemDisplay[r10]: %ORANGE%%RUNENAME% %WHITE%[10]
+ItemDisplay[r11]: %ORANGE%%RUNENAME% %WHITE%[11]
+ItemDisplay[r12]: %ORANGE%%RUNENAME% %WHITE%[12]
+ItemDisplay[r13]: %ORANGE%%RUNENAME% %WHITE%[13]
+ItemDisplay[r14]: %ORANGE%%RUNENAME% %GRAY%[14]
+ItemDisplay[r15]: %ORANGE%%RUNENAME% %WHITE%[15]
+ItemDisplay[r16]: %ORANGE%%RUNENAME% %GRAY%[16]
+ItemDisplay[r17]: %ORANGE%%RUNENAME% %GRAY%[17]
+ItemDisplay[r18]: %ORANGE%%RUNENAME% %WHITE%[18]
+ItemDisplay[r19]: %ORANGE%%RUNENAME% %WHITE%[19]
+ItemDisplay[r20]: %RED%¤ %PURPLE%LEM 20%RED% ¤
+ItemDisplay[r21]: %RED%¤ %PURPLE%PUL 21%RED% ¤
+ItemDisplay[r22]: %RED%¤¤ %PURPLE%UM 22%RED% ¤¤
+ItemDisplay[r23]: %RED%¤¤ %PURPLE%MAL 23%RED% ¤¤
+ItemDisplay[r24]: %RED%¤¤¤ %PURPLE%IST 24%RED% ¤¤¤
+ItemDisplay[r25]: %RED%¤¤¤¤ %PURPLE%GUL 25%RED% ¤¤¤¤
+ItemDisplay[r26]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%VEX 26%RED% ¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[r27]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%OHM 27%RED% ¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[r28]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%LO 28%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[r29]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%SUR 29%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[r30]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%BER 30%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[r31]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%JAH 31%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[r32]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%CHAM 32%RED% ¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[r33]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%ZOD 33%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+
 
 //OK UNIQUE Items
 //belts
@@ -124,29 +180,6 @@ ItemDisplay[UNI]: %NAME%
 ItemDisplay[SET]: %NAME%
 ItemDisplay[RW]: %NAME%
 
-
-
-//Show some items with pricetag
-ItemDisplay[WP12 NMAG]: %NAME% ($%PRICE%)
-
-//Utilites
-ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
-ItemDisplay[tsc CLVL>40]:
-ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
-ItemDisplay[isc CLVL>40]:
-ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
-ItemDisplay[wms CLVL>59]:
-ItemDisplay[yps]: %GREEN%!%WHITE%a
-ItemDisplay[key]: %GRAY%key
-//Choking, Exploding, Fulminating, Oil, Rancid, Strangling, Stamina 
-ItemDisplay[gpm CLVL>11]:
-ItemDisplay[opm CLVL>11]:
-ItemDisplay[opl CLVL>11]:
-ItemDisplay[ops CLVL>11]:
-ItemDisplay[gps CLVL>11]:
-ItemDisplay[gpl CLVL>11]:
-ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%Stamina
-ItemDisplay[vps CLVL>40]:
 
 
 // HIDE EVERYTHING ELSE!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
