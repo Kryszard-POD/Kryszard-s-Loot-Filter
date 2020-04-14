@@ -163,10 +163,20 @@ ItemDisplay[CL6 (MAG OR RARE)]: %NAME%
 ItemDisplay[WEAPON (WP6 AND CL7) (MAG OR RARE)]: %NAME%
 
 //Charms
-ItemDisplay[cm1]: %NAME% %PURPLE%° %WHITE%[%ILVL%]
-ItemDisplay[cm2]: %NAME% %PURPLE%°° %WHITE%[%ILVL%]
-ItemDisplay[cm3]: %NAME% %PURPLE%°°° %WHITE%[%ILVL%]
+ItemDisplay[cm1 ILVL>90]: %NAME% %PURPLE%° %WHITE%[%ILVL%]
+ItemDisplay[cm2 ILVL>90]: %NAME% %PURPLE%°° %WHITE%[%ILVL%]
+ItemDisplay[cm3 ILVL>90]: %NAME% %PURPLE%°°° %WHITE%[%ILVL%]
+ItemDisplay[cm1]: %NAME% %PURPLE%° %GRAY%[%ILVL%]
+ItemDisplay[cm2]: %NAME% %PURPLE%°° %GRAY%[%ILVL%]
+ItemDisplay[cm3]: %NAME% %PURPLE%°°° %GRAY%[%ILVL%]
 
+//Rings and amulets
+ItemDisplay[rin RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
+ItemDisplay[amu RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
+ItemDisplay[ring MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
+ItemDisplay[amu MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
+ItemDisplay[ring MAG]: %NAME% %GRAY%[%ILVL%]
+ItemDisplay[amu MAG]: %NAME% %GRAY%[%ILVL%]
 
 //OK UNIQUE Items
 //belts
