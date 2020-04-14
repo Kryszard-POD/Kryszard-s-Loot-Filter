@@ -162,6 +162,11 @@ ItemDisplay[CL2 (MAG OR RARE)]: %NAME%
 ItemDisplay[CL6 (MAG OR RARE)]: %NAME%
 ItemDisplay[WEAPON (WP6 AND CL7) (MAG OR RARE)]: %NAME%
 
+//Charms
+ItemDisplay[cm1]: %NAME% %PURPLE%• %WHITE%[%ILVL%]
+ItemDisplay[cm2]: %NAME% %PURPLE%•• %WHITE%[%ILVL%]
+ItemDisplay[cm3]: %NAME% %PURPLE%••• %WHITE%[%ILVL%]
+
 
 //OK UNIQUE Items
 //belts
