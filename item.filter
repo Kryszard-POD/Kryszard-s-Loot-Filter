@@ -81,6 +81,9 @@ ItemDisplay[SET !ID amu]: »»»» Set Amulet ««««
 ItemDisplay[uow UNI !ID]: %PURPLE%%NAME%
 ItemDisplay[pa9 UNI !ETH !ID]: %PURPLE%%NAME%
 ItemDisplay[nea UNI !ETH !ID]: %PURPLE%%NAME%
+//weapons
+ItemDisplay[7cr UNI !ETH !ID]: %GREEN%½%PURPLE%%NAME%
+ItemDisplay[7fl UNI !ETH !ID]: %GREEN%½%PURPLE%%NAME%
 
 
 //GG Items
@@ -105,8 +108,13 @@ ItemDisplay[xtb UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
 ItemDisplay[xtb UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 //shields
 ItemDisplay[uit UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
-
-
+//weapons
+ItemDisplay[6lw UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[7gw UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
+ItemDisplay[7gw UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[7gd UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[obf UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
+ItemDisplay[obf UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
 
 
 // SHOW ME THAT UNIQ ITEM IS ETH
@@ -142,5 +150,9 @@ ItemDisplay[vps CLVL>40]:
 
 
 // HIDE EVERYTHING ELSE!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+ItemDisplay[ARMOR SUP !ETH (SOCK>1 AND CLVL>79)]: %NAME% [%SOCKETS%]
+ItemDisplay[WEAPON SUP !ETH (SOCK>1 AND CLVL>79)]: %NAME% [%SOCKETS%]
+ItemDisplay[ARMOR NMAG !ETH (SOCK>1 AND CLVL>79)]: %NAME% [%SOCKETS%]
+ItemDisplay[WEAPON NMAG !ETH (SOCK>1 AND CLVL>79)]: %NAME% [%SOCKETS%]
 ItemDisplay[ARMOR]:
 ItemDisplay[WEAPON]:
