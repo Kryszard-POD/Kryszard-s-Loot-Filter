@@ -10,7 +10,7 @@ ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
 ItemDisplay[hp5]: %RED%!%WHITE%H+
 ItemDisplay[mp5]: %BLUE%!%WHITE%M+
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
-ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Minor Heal
+ItemDisplay[hp1 CLVL<15]: %RED%†%WHITE%Minor Heal %GREEN%½
 ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%Light Heal
 ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%Healing
 ItemDisplay[hp4 CLVL<60]: %RED%!%WHITE%H
