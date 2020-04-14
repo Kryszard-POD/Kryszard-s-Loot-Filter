@@ -22,14 +22,14 @@ ItemDisplay[mp1 DIFFICULTY=0]: %BLUE%!%WHITE%Minor Mana
 ItemDisplay[mp2 DIFFICULTY=0]: %BLUE%!%WHITE%Light Mana
 ItemDisplay[mp3 DIFFICULTY=0]: %BLUE%!%WHITE%Mana
 ItemDisplay[mp4 DIFFICULTY<2]: %BLUE%!%WHITE%Great Mana
-ItemDisplay[hp1 DIFFICULTY=2]:
-ItemDisplay[hp2 DIFFICULTY=2]:
-ItemDisplay[hp3 DIFFICULTY=2]:
-ItemDisplay[hp4 DIFFICULTY=2]:
-ItemDisplay[mp1 DIFFICULTY=2]:
-ItemDisplay[mp2 DIFFICULTY=2]:
-ItemDisplay[mp3 DIFFICULTY=2]:
-ItemDisplay[mp4 DIFFICULTY=2]:
+ItemDisplay[hp1 DIFFICULTY>0]:
+ItemDisplay[hp2 DIFFICULTY>0]:
+ItemDisplay[hp3 DIFFICULTY>0]:
+ItemDisplay[hp4 DIFFICULTY>1]:
+ItemDisplay[mp1 DIFFICULTY>0]:
+ItemDisplay[mp2 DIFFICULTY>0]:
+ItemDisplay[mp3 DIFFICULTY>0]:
+ItemDisplay[mp4 DIFFICULTY>1]:
 
 
 //Utilites
