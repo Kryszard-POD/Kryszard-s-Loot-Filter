@@ -11,7 +11,7 @@ ItemDisplay[GOLD<5000 CLVL>79]:
 ItemDisplay[GOLD>4999]: %TAN%%NAME%
 
 //Throws 35k+
-ItemDisplay[(7tk OR 7bk OR 7ta) !INF]: %GRAY%throw %TAN%[35k]
+ItemDisplay[(7tk OR 7bk OR 7ta) !INF ID]: %GRAY%throw %TAN%[35k]
 
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
@@ -297,8 +297,8 @@ ItemDisplay[uth SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR RW) ID SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI ETH]: %GRAY%ETH %GOLD%%NAME%
-//Show me every  uniq and set item and runewords
-ItemDisplay[(UNI OR SET OR RW)]: %NAME%
+//Show me every  uniq and set item
+ItemDisplay[(UNI OR SET)]: %NAME%
 
 //RuneWord Bases
 //Spirit Swords
@@ -357,6 +357,9 @@ ItemDisplay[CL1 SK243>2 !SOCK=1]: %GRAY%[%WHITE%3swv%GRAY%]%NAME% %TAN%[%SOCKETS
 ItemDisplay[CL1 SK238>2 !SOCK=1]: %GRAY%[%WHITE%3rbs%GRAY%]%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL1 SK239>2 !SOCK=1]: %GRAY%[%WHITE%3fcw%GRAY%]%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL1 SK225>2 !SOCK=1]: %GRAY%[%WHITE%3fst%GRAY%]%NAME% %TAN%[%SOCKETS%]
+
+//Show me runewords
+ItemDisplay[RW]: %NAME%
 
 // HIDE EVERYTHING ELSE
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) CLVL<60]: %NAME%
