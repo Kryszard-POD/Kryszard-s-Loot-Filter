@@ -219,14 +219,14 @@ ItemDisplay[wsp SOCK=4]: %NAME% [%SOCKETS%]
 ItemDisplay[fla SOCK>3]: %NAME% [%SOCKETS%]
 ItemDisplay[crs SOCK=5]: %NAME% [%SOCKETS%]
 //White
-ItemDisplay[WP12 SK84>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%White%3bsr%GRAY%] %NAME% [%SOCKETS%]
-ItemDisplay[WP12 SK83>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%White%3d%GRAY%] %NAME% [%SOCKETS%]
-ItemDisplay[WP12 SK92>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%White%3pn%GRAY%] %NAME% [%SOCKETS%]
-ItemDisplay[WP12 SK93>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%White%3bst%GRAY%] %NAME% [%SOCKETS%]
+ItemDisplay[WP12 SK84>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3bsr%GRAY%] %NAME% [%SOCKETS%]
+ItemDisplay[WP12 SK83>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3d%GRAY%] %NAME% [%SOCKETS%]
+ItemDisplay[WP12 SK92>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3pn%GRAY%] %NAME% [%SOCKETS%]
+ItemDisplay[WP12 SK93>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3bst%GRAY%] %NAME% [%SOCKETS%]
 //Memory
-ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) SK58>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%White%3es%GRAY%] %NAME% [%SOCKETS%]
+ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) SK58>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% [%SOCKETS%]
 //Faith
-ItemDisplay[amc TABSK0>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%White%3bow%GRAY%] %NAME% [%SOCKETS%]
+ItemDisplay[amc TABSK0>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% [%SOCKETS%]
 
 
 //OK UNIQUE Items
