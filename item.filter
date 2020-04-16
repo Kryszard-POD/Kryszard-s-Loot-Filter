@@ -356,11 +356,11 @@ ItemDisplay[CL1 SK238>2 !SOCK=1]: %GRAY%[%WHITE%3rbs%GRAY%]%NAME% %TAN%[%SOCKETS
 ItemDisplay[CL1 SK239>2 !SOCK=1]: %GRAY%[%WHITE%3fcw%GRAY%]%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL1 SK225>2 !SOCK=1]: %GRAY%[%WHITE%3fst%GRAY%]%NAME% %TAN%[%SOCKETS%]
 
-//Show me runewords
-ItemDisplay[RW]: %NAME%
-
 //Show me number of sockets on ID items
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR RW) ID SOCK>0]: %NAME% %TAN%[%SOCKETS%]
+
+//Show me runewords
+ItemDisplay[RW]: %NAME%
 
 // HIDE EVERYTHING ELSE
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) CLVL<60]: %NAME%
