@@ -4,24 +4,25 @@
 //
 // For Casual and EndGame Players
 
-//Hide Gold Piles Smaller Than (<) X
+//Gold
 ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
+ItemDisplay[GOLD>4999]: %TAN%%NAME%
 
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
-ItemDisplay[hp5]: %RED%!%WHITE%H+
-ItemDisplay[mp5]: %BLUE%!%WHITE%M+
-ItemDisplay[hp1 DIFFICULTY=0]: %RED%!%WHITE%Minor Heal
-ItemDisplay[hp2 DIFFICULTY=0]: %RED%!%WHITE%Light Heal
+ItemDisplay[hp5]: %RED%!%WHITE%Hp
+ItemDisplay[mp5]: %BLUE%!%WHITE%Mp
+ItemDisplay[hp1 DIFFICULTY=0]: %RED%!%WHITE%Minor hp
+ItemDisplay[hp2 DIFFICULTY=0]: %RED%!%WHITE%Light hp
 ItemDisplay[hp3 DIFFICULTY=0]: %RED%!%WHITE%Healing
-ItemDisplay[hp4 DIFFICULTY<2]: %RED%!%WHITE%Great Heal
-ItemDisplay[mp1 DIFFICULTY=0]: %BLUE%!%WHITE%Minor Mana
-ItemDisplay[mp2 DIFFICULTY=0]: %BLUE%!%WHITE%Light Mana
+ItemDisplay[hp4 DIFFICULTY<2]: %RED%!%WHITE%Great hp
+ItemDisplay[mp1 DIFFICULTY=0]: %BLUE%!%WHITE%Minor mp
+ItemDisplay[mp2 DIFFICULTY=0]: %BLUE%!%WHITE%Light mp
 ItemDisplay[mp3 DIFFICULTY=0]: %BLUE%!%WHITE%Mana
-ItemDisplay[mp4 DIFFICULTY<2]: %BLUE%!%WHITE%Great Mana
+ItemDisplay[mp4 DIFFICULTY<2]: %BLUE%!%WHITE%Great mp
 ItemDisplay[hp1 DIFFICULTY>0]:
 ItemDisplay[hp2 DIFFICULTY>0]:
 ItemDisplay[hp3 DIFFICULTY>0]:
@@ -37,21 +38,22 @@ ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
 ItemDisplay[tsc CLVL>40]:
 ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
 ItemDisplay[isc CLVL>40]:
-ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
-ItemDisplay[wms CLVL>59]:
+ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%Thaw
+ItemDisplay[wms CLVL>60]:
+ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%Stamina
+ItemDisplay[vps CLVL>40]:
 ItemDisplay[yps]: %GREEN%!%WHITE%a
 ItemDisplay[key]: %GRAY%key
-//Choking, Exploding, Fulminating, Oil, Rancid, Strangling, Stamina 
+//Choking, Exploding, Fulminating, Oil, Rancid, Strangling
 ItemDisplay[gpm CLVL>12]:
 ItemDisplay[opm CLVL>12]:
 ItemDisplay[opl CLVL>12]:
 ItemDisplay[ops CLVL>12]:
 ItemDisplay[gps CLVL>12]:
 ItemDisplay[gpl CLVL>12]:
-ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%Stamina
-ItemDisplay[vps CLVL>40]:
 
-//Essences (Respec Token)
+
+//Essences
 ItemDisplay[tes]: %ORANGE%Suffering %GRAY%[Andariel]
 ItemDisplay[ceh]: %ORANGE%Hatred %GRAY%[Mephisto]
 ItemDisplay[bet]: %ORANGE%Terror %GRAY%[Diablo]
@@ -70,24 +72,25 @@ ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
 ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
 
 //Wirt Leg and so
-ItemDisplay[leg]: %NAME% [%SOCKETS%]
+ItemDisplay[leg]: %NAME%
+ItemDisplay[leg SOCK>0]: %NAME% [%SOCKETS%]
 
 //Runes
 ItemDisplay[r01]: %ORANGE%%RUNENAME% %GRAY%[1]
 ItemDisplay[r02]: %ORANGE%%RUNENAME% %GRAY%[2]
 ItemDisplay[r03]: %ORANGE%%RUNENAME% %GRAY%[3]
-ItemDisplay[r04]: %ORANGE%%RUNENAME% %GRAY%[4]
-ItemDisplay[r05]: %ORANGE%%RUNENAME% %GRAY%[5]
-ItemDisplay[r06]: %ORANGE%%RUNENAME% %WHITE%[6]
-ItemDisplay[r07]: %ORANGE%%RUNENAME% %WHITE%[7]
-ItemDisplay[r08]: %ORANGE%%RUNENAME% %WHITE%[8]
-ItemDisplay[r09]: %ORANGE%%RUNENAME% %WHITE%[9]
-ItemDisplay[r10]: %ORANGE%%RUNENAME% %WHITE%[10]
-ItemDisplay[r11]: %ORANGE%%RUNENAME% %WHITE%[11]
-ItemDisplay[r12]: %ORANGE%%RUNENAME% %WHITE%[12]
-ItemDisplay[r13]: %ORANGE%%RUNENAME% %WHITE%[13]
+ItemDisplay[r04]: %ORANGE%%RUNENAME% %TAN%[4]
+ItemDisplay[r05]: %ORANGE%%RUNENAME% %TAN%[5]
+ItemDisplay[r06]: %ORANGE%%RUNENAME% %TAN%[6]
+ItemDisplay[r07]: %ORANGE%%RUNENAME% %GRAY%[7]
+ItemDisplay[r08]: %ORANGE%%RUNENAME% %TAN%[8]
+ItemDisplay[r09]: %ORANGE%%RUNENAME% %TAN%[9]
+ItemDisplay[r10]: %ORANGE%%RUNENAME% %GRAY%[10]
+ItemDisplay[r11]: %ORANGE%%RUNENAME% %GRAY%[11]
+ItemDisplay[r12]: %ORANGE%%RUNENAME% %GRAY%[12]
+ItemDisplay[r13]: %ORANGE%%RUNENAME% %TAN%[13]
 ItemDisplay[r14]: %ORANGE%%RUNENAME% %GRAY%[14]
-ItemDisplay[r15]: %ORANGE%%RUNENAME% %WHITE%[15]
+ItemDisplay[r15]: %ORANGE%%RUNENAME% %TAN%[15]
 ItemDisplay[r16]: %ORANGE%%RUNENAME% %GRAY%[16]
 ItemDisplay[r17]: %ORANGE%%RUNENAME% %GRAY%[17]
 ItemDisplay[r18]: %ORANGE%%RUNENAME% %WHITE%[18]
@@ -153,14 +156,27 @@ ItemDisplay[cq2 NMAG CLVL>12]:
 ItemDisplay[cq2 MAG CLVL>40]:
 
 //Criclets
-ItemDisplay[EQ7 RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
+ItemDisplay[EQ7 MAG ETH]: %GRAY%ETH %BLUE%%NAME%
+ItemDisplay[EQ7 RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
+ItemDisplay[EQ7 RARE !ETH !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
 ItemDisplay[EQ7 (MAG OR RARE)]: %NAME%
 
 //Class items
+ItemDisplay[CL1 MAG ETH]: %GRAY%ETH %BLUE%%NAME%
+ItemDisplay[CL1 RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[CL1 (MAG OR RARE)]: %NAME%
+ItemDisplay[CL2 MAG ETH]: %GRAY%ETH %BLUE%%NAME%
+ItemDisplay[CL2 RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[CL2 (MAG OR RARE)]: %NAME%
+ItemDisplay[CL6 MAG ETH]: %GRAY%ETH %BLUE%%NAME%
+ItemDisplay[CL6 RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[CL6 (MAG OR RARE)]: %NAME%
+ItemDisplay[WEAPON (WP6 AND CL7) MAG ETH]: %GRAY%ETH %BLUE%%NAME%
+ItemDisplay[WEAPON (WP6 AND CL7) RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[WEAPON (WP6 AND CL7) (MAG OR RARE)]: %NAME%
+ItemDisplay[WP12 MAG ETH]: %GRAY%ETH %BLUE%%NAME%
+ItemDisplay[WP12 RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
+ItemDisplay[WP12 (MAG OR RARE)]: %NAME%
 
 //Charms
 ItemDisplay[cm1 ILVL>90]: %NAME% %PURPLE%° %WHITE%[%ILVL%]
@@ -177,6 +193,19 @@ ItemDisplay[ring MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
 ItemDisplay[amu MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
 ItemDisplay[ring MAG]: %NAME% %GRAY%[%ILVL%]
 ItemDisplay[amu MAG]: %NAME% %GRAY%[%ILVL%]
+
+//Craftables
+ItemDisplay[(ARMOR OR WEAPON) !(NMAG OR MAG OR RARE OR SET OR UNI)]: %NAME%
+ItemDisplay[uvg MAG !ETH]: %NAME% %RED%[nef] %GRAY%[%ILVL%]
+ItemDisplay[xtb MAG !ETH]: %NAME% %RED%[eth] %GRAY%[%ILVL%]
+ItemDisplay[xlg MAG !ETH CLVL<61]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]
+ItemDisplay[ulg MAG !ETH CLVL<61]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]
+ItemDisplay[uvc MAG !ETH]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]
+ItemDisplay[uit MAG !ETH]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]
+
+//Rare Gloves, Belts and Boots
+ItemDisplay[(EQ4 OR EQ5 OR EQ6) (EXC OR ELT) RARE]: %NAME%
+
 
 //OK UNIQUE Items
 //belts
