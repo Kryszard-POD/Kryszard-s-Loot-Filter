@@ -156,9 +156,6 @@ ItemDisplay[cqv CLVL>12]:
 ItemDisplay[cq2 NMAG CLVL>12]:
 ItemDisplay[cq2 MAG CLVL>40]:
 
-//Show me number of sockets on ID items
-ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR RW) ID SOCK>0]: %NAME% %TAN%[%SOCKETS%]
-
 //Criclets
 ItemDisplay[EQ7 MAG ETH]: %GRAY%ETH %BLUE%%NAME%
 ItemDisplay[EQ7 RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
@@ -358,6 +355,9 @@ ItemDisplay[CL1 (NMAG OR SUP OR RW) SK243>2 !SOCK=1]: %GRAY%[%WHITE%3swv%GRAY%]%
 ItemDisplay[CL1 (NMAG OR SUP OR RW) SK238>2 !SOCK=1]: %GRAY%[%WHITE%3rbs%GRAY%]%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL1 (NMAG OR SUP OR RW) SK239>2 !SOCK=1]: %GRAY%[%WHITE%3fcw%GRAY%]%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL1 (NMAG OR SUP OR RW) SK225>2 !SOCK=1]: %GRAY%[%WHITE%3fst%GRAY%]%NAME% %TAN%[%SOCKETS%]
+
+//Show me number of sockets on ID items
+ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR RW) ID SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 
 //HIDE EVERYTHING ELSE
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) CLVL<60]: %NAME%
