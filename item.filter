@@ -286,7 +286,7 @@ ItemDisplay[7qr SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
 ItemDisplay[uth SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
 
 //Show me number of sockets on id items
-ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) ID SOCK>0]: %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR RW) ID SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI ETH]: %GRAY%ETH %GOLD%%NAME%
 //Show me every  uniq and set item and runewords
