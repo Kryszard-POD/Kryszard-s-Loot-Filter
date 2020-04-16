@@ -227,6 +227,8 @@ ItemDisplay[WP12 SK93>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3bst%GRAY%] %NAME% [%
 ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) SK58>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% [%SOCKETS%]
 //Faith
 ItemDisplay[amc TABSK0>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% [%SOCKETS%]
+//Infi/Insi/Pride
+ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo) (ETH AND !INF) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% [%SOCKETS%]
 
 
 //OK UNIQUE Items
