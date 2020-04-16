@@ -216,64 +216,6 @@ ItemDisplay[(EQ4 OR EQ5 OR EQ6) (EXC OR ELT) ETH RARE]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[WEAPON TABSK34>2]: %RED%»» »» »» %GREEN%3bo weapon%RED% «« «« ««
 ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) IAS>19]: %RED%»» »» »» %GREEN%3/20 Gloves%RED% «« «« ««
 
-//RuneWord Bases
-//Spirit Swords
-ItemDisplay[(crs OR bsd OR lsd) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
-//Holy Thunder/Rift
-ItemDisplay[wsp SOCK=4]: %NAME% %TAN%[%SOCKETS%]
-//HOTO AND CTA
-ItemDisplay[fla SOCK>3]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[crs SOCK=5]: %NAME% %TAN%[%SOCKETS%]
-//White
-ItemDisplay[WP12 SK84>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3bsr%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP12 SK83>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3d%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP12 SK92>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3pn%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WP12 SK93>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3bst%GRAY%] %NAME% %TAN%[%SOCKETS%]
-//Memory
-ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) SK58>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 (SOCK=0 OR SOCK=4) (!INF AND !SUP)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
-//Faith
-ItemDisplay[amc TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[amc TABSK0>2 SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6cb SOCK=4]: %NAME% %TAN%[%SOCKETS%]
-//Infi/Insi/Pride and Obedience/Doom
-ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7) (ETH AND !INF) (SOCK=4 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7vo (ETH AND !INF) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(7wc OR 7pa OR 7s8 OR 7h7) (ETH AND !INF AND !SUP) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-//Grief/Beast/Passion
-ItemDisplay[(7cr OR 7wa) (!ETH AND !INF) (SOCK=4 OR SOCK=5)]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(7cr OR 7wa) (!ETH AND !INF AND !SUP) SOCK=0]: %NAME% %TAN%[%SOCKETS%]
-//Death/Oath
-ItemDisplay[(7wa OR 7fb OR 7gd) (ETH AND !INF) (SOCK=4 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7fb (ETH AND !INF) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(7wa OR 7gd) (ETH AND !INF AND !SUP) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-//Breath of the Dying/Last Wish
-ItemDisplay[(7wa OR 7gd OR 7p7 OR 7cr) (ETH AND !INF) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-//Chaos
-ItemDisplay[9tw (!ETH AND !INF) (SK274>0 AND SK275>0) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%chaos%GRAY%] %NAME% %TAN%[%SOCKETS%]
-//Armors
-ItemDisplay[xtp (!INF AND !ETH) SOCK=2]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(xtp OR utp OR uui) (!INF AND !ETH AND !MAG AND !RARE) (SOCK=0 OR SOCK>2)]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[EQ2 ELT (!INF AND ETH) SOCK>2]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-//Helmets
-ItemDisplay[(ci3 OR uh9) (!INF AND !ETH) SOCK=3]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL2 SK149>2 !SOCK=1]: %GRAY%[%WHITE%3bo%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL2 SK154>2 !SOCK=1]: %GRAY%[%WHITE%3wc%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK221>2 !SOCK=1]: %GRAY%[%WHITE%3rvn%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK227>2 !SOCK=1]: %GRAY%[%WHITE%3swf%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK237>2 !SOCK=1]: %GRAY%[%WHITE%3dwf%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK238>2 !SOCK=1]: %GRAY%[%WHITE%3rbs%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK247>2 !SOCK=1]: %GRAY%[%WHITE%3gzy%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK250>2 !SOCK=1]: %GRAY%[%WHITE%3hur%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK249>2 !SOCK=1]: %GRAY%[%WHITE%3agn%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK245>2 !SOCK=1]: %GRAY%[%WHITE%3tno%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK244>2 !SOCK=1]: %GRAY%[%WHITE%3vno%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK240>2 !SOCK=1]: %GRAY%[%WHITE%3tsr%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK243>2 !SOCK=1]: %GRAY%[%WHITE%3swv%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK238>2 !SOCK=1]: %GRAY%[%WHITE%3rbs%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK239>2 !SOCK=1]: %GRAY%[%WHITE%3fcw%GRAY%]%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL1 SK225>2 !SOCK=1]: %GRAY%[%WHITE%3fst%GRAY%]%NAME% %TAN%[%SOCKETS%]
-
 //OK UNIQUE Items
 //belts
 ItemDisplay[zlb UNI !ETH !ID]: %PURPLE%%NAME%
@@ -357,6 +299,64 @@ ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR RW) ID SOCK>0]: %NAM
 ItemDisplay[UNI ETH]: %GRAY%ETH %GOLD%%NAME%
 //Show me every  uniq and set item and runewords
 ItemDisplay[(UNI OR SET OR RW)]: %NAME%
+
+//RuneWord Bases
+//Spirit Swords
+ItemDisplay[(crs OR bsd OR lsd) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
+//Holy Thunder/Rift
+ItemDisplay[wsp SOCK=4]: %NAME% %TAN%[%SOCKETS%]
+//HOTO AND CTA
+ItemDisplay[fla SOCK>3]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[crs SOCK=5]: %NAME% %TAN%[%SOCKETS%]
+//White
+ItemDisplay[WP12 SK84>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3bsr%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 SK83>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3d%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 SK92>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3pn%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WP12 SK93>2 (SOCK=0 OR SOCK=2)]: %GRAY%[%WHITE%3bst%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//Memory
+ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) SK58>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 (SOCK=0 OR SOCK=4) (!INF AND !SUP)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//Faith
+ItemDisplay[amc TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[amc TABSK0>2 SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[6cb SOCK=4]: %NAME% %TAN%[%SOCKETS%]
+//Infi/Insi/Pride and Obedience/Doom
+ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7) (ETH AND !INF) (SOCK=4 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7vo (ETH AND !INF) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7wc OR 7pa OR 7s8 OR 7h7) (ETH AND !INF AND !SUP) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//Grief/Beast/Passion
+ItemDisplay[(7cr OR 7wa) (!ETH AND !INF) (SOCK=4 OR SOCK=5)]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7cr OR 7wa) (!ETH AND !INF AND !SUP) SOCK=0]: %NAME% %TAN%[%SOCKETS%]
+//Death/Oath
+ItemDisplay[(7wa OR 7fb OR 7gd) (ETH AND !INF) (SOCK=4 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7fb (ETH AND !INF) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7wa OR 7gd) (ETH AND !INF AND !SUP) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//Breath of the Dying/Last Wish
+ItemDisplay[(7wa OR 7gd OR 7p7 OR 7cr) (ETH AND !INF) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//Chaos
+ItemDisplay[9tw (!ETH AND !INF) (SK274>0 AND SK275>0) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%chaos%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//Armors
+ItemDisplay[xtp (!INF AND !ETH) SOCK=2]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(xtp OR utp OR uui) (!INF AND !ETH AND !MAG AND !RARE) (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[EQ2 ELT (!INF AND ETH) SOCK>2]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//Helmets
+ItemDisplay[(ci3 OR uh9) (!INF AND !ETH) SOCK=3]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL2 SK149>2 !SOCK=1]: %GRAY%[%WHITE%3bo%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL2 SK154>2 !SOCK=1]: %GRAY%[%WHITE%3wc%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK221>2 !SOCK=1]: %GRAY%[%WHITE%3rvn%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK227>2 !SOCK=1]: %GRAY%[%WHITE%3swf%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK237>2 !SOCK=1]: %GRAY%[%WHITE%3dwf%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK238>2 !SOCK=1]: %GRAY%[%WHITE%3rbs%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK247>2 !SOCK=1]: %GRAY%[%WHITE%3gzy%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK250>2 !SOCK=1]: %GRAY%[%WHITE%3hur%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK249>2 !SOCK=1]: %GRAY%[%WHITE%3agn%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK245>2 !SOCK=1]: %GRAY%[%WHITE%3tno%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK244>2 !SOCK=1]: %GRAY%[%WHITE%3vno%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK240>2 !SOCK=1]: %GRAY%[%WHITE%3tsr%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK243>2 !SOCK=1]: %GRAY%[%WHITE%3swv%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK238>2 !SOCK=1]: %GRAY%[%WHITE%3rbs%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK239>2 !SOCK=1]: %GRAY%[%WHITE%3fcw%GRAY%]%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL1 SK225>2 !SOCK=1]: %GRAY%[%WHITE%3fst%GRAY%]%NAME% %TAN%[%SOCKETS%]
 
 // HIDE EVERYTHING ELSE
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) CLVL<60]: %NAME%
