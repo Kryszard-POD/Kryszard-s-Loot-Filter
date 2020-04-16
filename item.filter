@@ -206,6 +206,9 @@ ItemDisplay[uit MAG !ETH]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]
 //Rare Gloves, Belts and Boots
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) (EXC OR ELT) RARE]: %NAME%
 
+//RuneWord Bases
+//Spirit Swords
+ItemDisplay[(crs OR bsd OR lsd) SOCK=4]: %NAME% [%SOCKETS%]
 
 //OK UNIQUE Items
 //belts
@@ -285,7 +288,7 @@ ItemDisplay[ci3 SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
 ItemDisplay[7qr SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
 ItemDisplay[uth SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
 
-//Show me number of sockets on id items
+//Show me number of sockets on ID items
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR RW) ID SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI ETH]: %GRAY%ETH %GOLD%%NAME%
@@ -295,14 +298,9 @@ ItemDisplay[(UNI OR SET OR RW)]: %NAME%
 
 
 // HIDE EVERYTHING ELSE!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
-ItemDisplay[ARMOR (MAG OR RARE) CLVL<60]: %NAME%
-ItemDisplay[WEAPON (MAG OR RARE) CLVL<60]: %NAME%
-ItemDisplay[ARMOR (SUP OR NMAG) !ETH SOCK>1 CLVL<40]: %NAME% [%SOCKETS%]
-ItemDisplay[WEAPON (SUP OR NMAG) !ETH SOCK>1 CLVL<40]: %NAME% [%SOCKETS%]
-ItemDisplay[WEAPON (SUP OR NMAG) ETH SOCK=4 CLVL<60]: %NAME% [%SOCKETS%]
-ItemDisplay[ARMOR (SUP OR NMAG) (EXC OR ELT) !ETH SOCK>1 CLVL>39 AND CLVL<80]: %NAME% [%SOCKETS%]
-ItemDisplay[WEAPON (SUP OR NMAG) (EXC OR ELT) !ETH SOCK>1 CLVL>39 AND CLVL<80]: %NAME% [%SOCKETS%]
-ItemDisplay[ARMOR INF]:
-ItemDisplay[WEAPON INF]:
-ItemDisplay[ARMOR CLVL>12]:
-ItemDisplay[WEAPON CLVL>12]:
+ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) CLVL<60]: %NAME%
+ItemDisplay[(ARMOR OR WEAPON) (SUP OR NMAG) !ETH SOCK>1 CLVL<40]: %NAME% [%SOCKETS%]
+ItemDisplay[WEAPON (SUP OR NMAG) ETH SOCK=4 CLVL<60]: ETH %NAME% [%SOCKETS%]
+ItemDisplay[(ARMOR OR WEAPON) (SUP OR NMAG) (EXC OR ELT) !ETH SOCK>1 CLVL>39 AND CLVL<80]: %NAME% [%SOCKETS%]
+ItemDisplay[(ARMOR OR WEAPON) INF]:
+ItemDisplay[(ARMOR OR WEAPON) CLVL>12]:
