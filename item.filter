@@ -26,7 +26,7 @@ ItemDisplay[mp2 DIFFICULTY=0]: %BLUE%!%WHITE%light mp
 ItemDisplay[mp3 DIFFICULTY=0]: %BLUE%!%WHITE%mana
 ItemDisplay[mp4 DIFFICULTY<2]: %BLUE%!%WHITE%great mp
 ItemDisplay[(hp1 OR hp2 OR hp3 OR mp1 OR mp2 OR mp3) DIFFICULTY>0]:
-ItemDisplay[(hp4 or mp4) DIFFICULTY=2]:
+ItemDisplay[(hp4 OR mp4) DIFFICULTY>1]:
 
 //Utilites
 ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%tp
