@@ -208,8 +208,8 @@ ItemDisplay[uvc MAG !ETH]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]
 ItemDisplay[uit MAG !ETH]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]
 
 //Rare Gloves, Belts and Boots
-ItemDisplay[(EQ4 OR EQ5 OR EQ6) (EXC OR ELT) RARE]: %NAME%
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) (EXC OR ELT) ETH RARE]: %GRAY%ETH %YELLOW%%NAME%
+ItemDisplay[(EQ4 OR EQ5 OR EQ6) (EXC OR ELT) RARE]: %NAME%
 
 //+3bo weapons and +3/20 gloves
 ItemDisplay[WEAPON TABSK34>2]: %RED%»» »» »» %GREEN%3bo weapon%RED% «« «« ««
@@ -243,9 +243,9 @@ ItemDisplay[lbt UNI !ETH !ID]: %PURPLE%%NAME%
 ItemDisplay[xhb UNI !ETH !ID]: %PURPLE%%NAME%
 ItemDisplay[uhb UNI !ETH !ID]: %PURPLE%%NAME%
 //jewelry
-ItemDisplay[UNI !ID rin]: %RED%»»»» %PURPLE%UNIQUE RING HYPE%RED% ««««
-ItemDisplay[UNI !ID amu]: %RED%»»»» %PURPLE%UNIQUE AMULET HYPE%RED% ««««
-ItemDisplay[UNI !ID jew]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[UNI !ID rin]: %RED%»» »» %PURPLE%UNIQUE RING HYPE%RED% «« ««
+ItemDisplay[UNI !ID amu]: %RED%»» »» %PURPLE%UNIQUE AMULET HYPE%RED% «« ««
+ItemDisplay[UNI !ID jew]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 //shields
 ItemDisplay[uow UNI !ID]: %PURPLE%%NAME%
 ItemDisplay[pa9 UNI !ETH !ID]: %PURPLE%%NAME%
@@ -257,48 +257,52 @@ ItemDisplay[7fl UNI !ETH !ID]: %GREEN%½%PURPLE%%NAME%
 //GG Uniq Items
 //belts
 ItemDisplay[ulc UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[ulc UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[ulc UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 //armors
 ItemDisplay[xea UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[xea UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[xea UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 ItemDisplay[uar UNI ETH !ID]: %GRAY%ETH %GREEN%½ %PURPLE%%NAME%
-ItemDisplay[uar UNI !ID]: %RED%»»»» %GREEN%½ %PURPLE%%NAME%%RED% ««««
+ItemDisplay[uar UNI !ID]: %RED%»» »» %GREEN%½ %PURPLE%%NAME%%RED% «« ««
 //helmets
-ItemDisplay[urn UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[urn UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 ItemDisplay[uap UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[uap UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[uap UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 ItemDisplay[ulm UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[ulm UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[ulm UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 ItemDisplay[ci3 UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[ci3 UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[ci3 UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 //boots
 ItemDisplay[xtb UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[xtb UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[xtb UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 //shields
-ItemDisplay[uit UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[uit UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 //weapons
-ItemDisplay[6lw UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[6lw UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 ItemDisplay[7gw UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[7gw UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
-ItemDisplay[7gd UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[7gw UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
+ItemDisplay[7gd UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 ItemDisplay[obf UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[obf UNI !ID]: %RED%»»»» %PURPLE%%NAME%%RED% ««««
+ItemDisplay[obf UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 
 //Good set parts
-ItemDisplay[amu SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
-ItemDisplay[xtb SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
-ItemDisplay[uar SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
-ItemDisplay[ci3 SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
-ItemDisplay[7qr SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
-ItemDisplay[uth SET !ID]: %DGREEN%»»»» %GREEN%%NAME%%DGREEN% ««««
+ItemDisplay[amu SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
+ItemDisplay[xtb SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
+ItemDisplay[uar SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
+ItemDisplay[ci3 SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
+ItemDisplay[7qr SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
+ItemDisplay[uth SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
 
 //RuneWord Bases
 //Spirit Swords
+ItemDisplay[(crs OR bsd OR lsd) ETH SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 //Holy Thunder/Rift
+ItemDisplay[wsp ETH SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[wsp SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 //HOTO AND CTA
+ItemDisplay[fla ETH SOCK>3]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[fla SOCK>3]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[crs ETH SOCK=5]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[crs SOCK=5]: %NAME% %TAN%[%SOCKETS%]
 //White
 ItemDisplay[WP12 SK84>2 (SOCK=0 OR SOCK=2) (NMAG OR SUP OR RW)]: %GRAY%[%WHITE%3bsr%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -307,7 +311,8 @@ ItemDisplay[WP12 SK92>2 (SOCK=0 OR SOCK=2) (NMAG OR SUP OR RW)]: %GRAY%[%WHITE%3
 ItemDisplay[WP12 SK93>2 (SOCK=0 OR SOCK=2) (NMAG OR SUP OR RW)]: %GRAY%[%WHITE%3bst%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Memory
 ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) (NMAG OR SUP OR RW) SK58>2 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR SUP OR RW) SK58>2 (SOCK=0 OR SOCK=4) (!INF AND !SUP)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR SUP OR RW) SK58>2 SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(wst OR 8ws OR 6ws) (NMAG OR SUP OR RW) SK58>2 SOCK=4]: %GRAY%[%WHITE%3es%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Faith
 ItemDisplay[amc (NMAG OR SUP OR RW) TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[amc (NMAG OR SUP OR RW) TABSK0>2 SOCK=0 (!INF AND !SUP)]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -318,7 +323,7 @@ ItemDisplay[7vo (ETH AND !INF) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%S
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7h7) (ETH AND !INF AND !SUP) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Grief/Beast/Passion
 ItemDisplay[(7cr OR 7wa) (!ETH AND !INF) (SOCK=4 OR SOCK=5)]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(7cr OR 7wa) (!ETH AND !INF AND !SUP) SOCK=0]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7cr OR 7wa) (!ETH AND !INF AND !SUP) SOCK=0]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Death/Oath
 ItemDisplay[(7wa OR 7fb OR 7gd) (ETH AND !INF) (SOCK=4 OR SOCK=5)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7fb (ETH AND !INF) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -355,7 +360,7 @@ ItemDisplay[UNI ETH]: %GRAY%ETH %GOLD%%NAME%
 //Show me number of sockets on ID items
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR RW) SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 //Show me every  uniq and set item and runewords
-ItemDisplay[(UNI OR SET OR RW)]: %NAME%
+ItemDisplay[(UNI OR SET OR RW)]: %GRAY%test%NAME%
 
 //HIDE EVERYTHING ELSE
 ItemDisplay[(ARMOR OR WEAPON) MAG ETH CLVL<60]: %GRAY%ETH %BLUE%%NAME%
