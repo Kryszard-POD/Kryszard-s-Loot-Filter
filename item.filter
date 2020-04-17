@@ -374,7 +374,7 @@ ItemDisplay[uit (!INF AND ETH) AND (NMAG OR SUP OR RW)  (SOCK=0 OR SOCK=4)]: %GR
 ItemDisplay[uit (!INF AND !ETH) AND (NMAG OR SUP OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 
 // SHOW ME THAT UNIQ ITEM IS ETH
-ItemDisplay[UNI ETH SOCK=0]: %GRAY%ETH %GOLD%%NAME%
+ItemDisplay[UNI AND ETH AND SOCK=0]: %GRAY%ETH %GOLD%%NAME%
 //Show me number of sockets on ETH AND ID items
 ItemDisplay[(ARMOR OR WEAPON) ((MAG OR RARE OR SET OR UNI OR RW) AND ETH) SOCK>0]: %NAME% %GRAY%ETH %TAN%[%SOCKETS%]
 //Show me number of sockets on ID items
