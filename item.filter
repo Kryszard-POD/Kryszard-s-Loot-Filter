@@ -139,13 +139,13 @@ ItemDisplay[glr]: %WHITE%Ruby %ORANGE%[%RED%O%ORANGE%]
 ItemDisplay[glb]: %WHITE%Sapphire %ORANGE%[%BLUE%O%ORANGE%]
 ItemDisplay[gly]: %WHITE%Topaz %ORANGE%[%YELLOW%O%ORANGE%]
 ItemDisplay[skl]: %WHITE%Skull %ORANGE%[%GRAY%O%ORANGE%]
-ItemDisplay[gpv]: %WHITE%P %ORANGE%Amethyst
-ItemDisplay[gpw]: %WHITE%P %ORANGE%Diamond
-ItemDisplay[gpg]: %WHITE%P %ORANGE%Emerald
-ItemDisplay[gpr]: %WHITE%P %ORANGE%Ruby
-ItemDisplay[gpb]: %WHITE%P %ORANGE%Sapphire
-ItemDisplay[gpy]: %WHITE%P %ORANGE%Topaz
-ItemDisplay[skz]: %WHITE%P %ORANGE%Skull
+ItemDisplay[gpv]: %ORANGE%P %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]
+ItemDisplay[gpw]: %ORANGE%P %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]
+ItemDisplay[gpg]: %ORANGE%P %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]
+ItemDisplay[gpr]: %ORANGE%P %WHITE%Ruby %ORANGE%[%RED%O%ORANGE%]
+ItemDisplay[gpb]: %ORANGE%P %WHITE%Sapphire %ORANGE%[%BLUE%O%ORANGE%]
+ItemDisplay[gpy]: %ORANGE%P %WHITE%Topaz %ORANGE%[%YELLOW%O%ORANGE%]
+ItemDisplay[skz]: %ORANGE%P %WHITE%Skull %ORANGE%[%GRAY%O%ORANGE%]
 
 //Arrows and Bolts
 ItemDisplay[aqv CLVL>12]:
@@ -386,8 +386,8 @@ ItemDisplay[(UNI OR SET OR RW)]: %NAME%
 ItemDisplay[(ARMOR OR WEAPON) MAG ETH CLVL<60]: %GRAY%ETH %BLUE%%NAME%
 ItemDisplay[(ARMOR OR WEAPON) RARE ETH CLVL<60]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) CLVL<60]: %NAME%
-ItemDisplay[(ARMOR OR WEAPON) (SUP OR NMAG) !ETH SOCK>1 CLVL<40]: %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WEAPON (SUP OR NMAG) ETH SOCK=4 CLVL<60]: %GRAY%ETH %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(ARMOR OR WEAPON) (SUP OR NMAG) (EXC OR ELT) !ETH SOCK>1 CLVL>39 AND CLVL<81]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(ARMOR OR WEAPON) NMAG AND (!ETH AND !INF) SOCK>1 CLVL<40]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WEAPON NMAG AND (ETH AND !INF) SOCK=4 CLVL<60]: %GRAY%ETH %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(ARMOR OR WEAPON) (EXC OR ELT) NMAG AND (!ETH AND !INF) SOCK>1 CLVL>39 AND CLVL<81]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(ARMOR OR WEAPON) INF]:
 ItemDisplay[(ARMOR OR WEAPON) CLVL>18]:
