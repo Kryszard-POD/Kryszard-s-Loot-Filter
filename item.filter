@@ -132,13 +132,13 @@ ItemDisplay[gcr]: %GRAY%chip
 ItemDisplay[gcb]: %GRAY%chip
 ItemDisplay[gcy]: %GRAY%chip
 ItemDisplay[skc]: %GRAY%chip
-ItemDisplay[gzv]: %ORANGE%Amethyst
-ItemDisplay[glw]: %ORANGE%Diamond
-ItemDisplay[glg]: %ORANGE%Emerald
-ItemDisplay[glr]: %ORANGE%Ruby
-ItemDisplay[glb]: %ORANGE%Sapphire
-ItemDisplay[gly]: %ORANGE%Topaz
-ItemDisplay[skl]: %ORANGE%Skull
+ItemDisplay[gzv]: %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]
+ItemDisplay[glw]: %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]
+ItemDisplay[glg]: %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]
+ItemDisplay[glr]: %WHITE%Ruby %ORANGE%[%RED%O%ORANGE%]
+ItemDisplay[glb]: %WHITE%Sapphire %ORANGE%[%BLUE%O%ORANGE%]
+ItemDisplay[gly]: %WHITE%Topaz %ORANGE%[%YELLOW%O%ORANGE%]
+ItemDisplay[skl]: %WHITE%Skull %ORANGE%[%GRAY%O%ORANGE%]
 ItemDisplay[gpv]: %WHITE%P %ORANGE%Amethyst
 ItemDisplay[gpw]: %WHITE%P %ORANGE%Diamond
 ItemDisplay[gpg]: %WHITE%P %ORANGE%Emerald
