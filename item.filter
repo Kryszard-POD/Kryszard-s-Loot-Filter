@@ -5,11 +5,9 @@
 // For Casual and EndGame Players
 
 //Gold
-ItemDisplay[GOLD>4999]: %TAN%%NAME%
 ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
-
 
 //Throws 35k+
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG OR SUP)]: %GRAY%throw %TAN%[35k]
@@ -19,14 +17,14 @@ ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
 ItemDisplay[hp5]: %RED%!%WHITE%Hp
 ItemDisplay[mp5]: %BLUE%!%WHITE%Mp
-ItemDisplay[hp1 DIFFICULTY=0]: %RED%!%WHITE%Minor hp
-ItemDisplay[hp2 DIFFICULTY=0]: %RED%!%WHITE%Light hp
-ItemDisplay[hp3 DIFFICULTY=0]: %RED%!%WHITE%Healing
-ItemDisplay[hp4 DIFFICULTY<2]: %RED%!%WHITE%Great hp
-ItemDisplay[mp1 DIFFICULTY=0]: %BLUE%!%WHITE%Minor mp
-ItemDisplay[mp2 DIFFICULTY=0]: %BLUE%!%WHITE%Light mp
-ItemDisplay[mp3 DIFFICULTY=0]: %BLUE%!%WHITE%Mana
-ItemDisplay[mp4 DIFFICULTY<2]: %BLUE%!%WHITE%Great mp
+ItemDisplay[hp1 DIFFICULTY=0]: %RED%!%WHITE%minor hp
+ItemDisplay[hp2 DIFFICULTY=0]: %RED%!%WHITE%light hp
+ItemDisplay[hp3 DIFFICULTY=0]: %RED%!%WHITE%healing
+ItemDisplay[hp4 DIFFICULTY<2]: %RED%!%WHITE%great hp
+ItemDisplay[mp1 DIFFICULTY=0]: %BLUE%!%WHITE%minor mp
+ItemDisplay[mp2 DIFFICULTY=0]: %BLUE%!%WHITE%light mp
+ItemDisplay[mp3 DIFFICULTY=0]: %BLUE%!%WHITE%mana
+ItemDisplay[mp4 DIFFICULTY<2]: %BLUE%!%WHITE%great mp
 ItemDisplay[hp1 DIFFICULTY>0]:
 ItemDisplay[hp2 DIFFICULTY>0]:
 ItemDisplay[hp3 DIFFICULTY>0]:
@@ -37,13 +35,13 @@ ItemDisplay[mp3 DIFFICULTY>0]:
 ItemDisplay[mp4 DIFFICULTY>1]:
 
 //Utilites
-ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
+ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%tp
 ItemDisplay[tsc CLVL>40]:
-ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
+ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%it
 ItemDisplay[isc CLVL>40]:
-ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%Thaw
+ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%thaw
 ItemDisplay[wms CLVL>60]:
-ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%Stamina
+ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%stamina
 ItemDisplay[vps CLVL>40]:
 ItemDisplay[yps]: %GREEN%!%WHITE%a
 ItemDisplay[key]: %GRAY%key
@@ -352,20 +350,19 @@ ItemDisplay[CL1 (NMAG OR SUP OR RW) SK238>2 !SOCK=1]: %GRAY%[%WHITE%3rbs%GRAY%] 
 ItemDisplay[CL1 (NMAG OR SUP OR RW) SK239>2 !SOCK=1]: %GRAY%[%WHITE%3fcw%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL1 (NMAG OR SUP OR RW) SK225>2 !SOCK=1]: %GRAY%[%WHITE%3fst%GRAY%] %NAME% %TAN%[%SOCKETS%]
 
-//Show me number of sockets on ID items
-ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR RW) ID SOCK>0]: %NAME% %TAN%[%SOCKETS%]
-
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI ETH]: %GRAY%ETH %GOLD%%NAME%
 //Show me every  uniq and set item and runewords
 ItemDisplay[(UNI OR SET OR RW)]: %NAME%
+//Show me number of sockets on ID items
+ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR RW) ID SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 
 //HIDE EVERYTHING ELSE
-ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) CLVL<60]: %NAME%
 ItemDisplay[(ARMOR OR WEAPON) MAG ETH CLVL<60]: %GRAY%ETH %BLUE%%NAME%
 ItemDisplay[(ARMOR OR WEAPON) RARE ETH CLVL<60]: %GRAY%ETH %YELLOW%%NAME%
-ItemDisplay[(ARMOR OR WEAPON) (SUP OR NMAG) !ETH SOCK>1 CLVL<40]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[WEAPON (SUP OR NMAG) ETH SOCK=4 CLVL<60]: ETH %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) CLVL<60]: %NAME%
+ItemDisplay[(ARMOR OR WEAPON) (SUP OR NMAG) !ETH SOCK>1 CLVL<40]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[WEAPON (SUP OR NMAG) ETH SOCK=4 CLVL<60]: %GRAY%ETH %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(ARMOR OR WEAPON) (SUP OR NMAG) (EXC OR ELT) !ETH SOCK>1 CLVL>39 AND CLVL<80]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(ARMOR OR WEAPON) INF]:
-ItemDisplay[(ARMOR OR WEAPON) CLVL>12]:
+ItemDisplay[(ARMOR OR WEAPON) CLVL>18]:
