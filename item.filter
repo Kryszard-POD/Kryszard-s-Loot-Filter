@@ -37,7 +37,7 @@ ItemDisplay[mp4 DIFFICULTY>1]:
 //Utilites
 ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%tp
 ItemDisplay[tsc CLVL>40]:
-ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%it
+ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%id
 ItemDisplay[isc CLVL>40]:
 ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%thaw
 ItemDisplay[wms CLVL>60]:
@@ -335,6 +335,14 @@ ItemDisplay[(7wa OR 7gd) (ETH AND !INF AND !SUP) SOCK=0]: %GRAY%[%WHITE%eth%GRAY
 ItemDisplay[(7wa OR 7gd OR 7p7 OR 7cr) (ETH AND !INF) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Chaos
 ItemDisplay[9tw (!ETH AND !INF) (SK274>0 AND SK275>0) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%chaos%GRAY%] %NAME% %TAN%[%SOCKETS%]
+//Plague
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) SK277>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3bs%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) SK278>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3vnm%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) SK276>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ds%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) SK271>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ls%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) SK272>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3woi%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) SK266>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3bf%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) SK262>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3wof%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Armors
 ItemDisplay[xtp (!INF AND !ETH) SOCK=2]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(xtp OR utp OR uui) (!INF AND !ETH AND !MAG AND !RARE) (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
@@ -358,7 +366,12 @@ ItemDisplay[CL1 (NMAG OR SUP OR RW) SK238>2 !SOCK=1]: %GRAY%[%WHITE%3rbs%GRAY%] 
 ItemDisplay[CL1 (NMAG OR SUP OR RW) SK239>2 !SOCK=1]: %GRAY%[%WHITE%3fcw%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL1 (NMAG OR SUP OR RW) SK225>2 !SOCK=1]: %GRAY%[%WHITE%3fst%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Shields
-ItemDisplay[CL3 (!INF AND !ETH) AND (NMAG OR SUP OR RW) (SOCK=0 OR SOCK=4) (RES>34 AND CLVL<81)]: %GRAY%[%WHITE%res%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[pab (!INF AND ETH) AND (NMAG OR SUP OR RW) (SOCK=0 OR SOCK=4) RES>34]: %GRAY%[%WHITE%eth%GRAY%][%WHITE%res%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[pab (!INF AND !ETH) AND (NMAG OR SUP OR RW) (SOCK=0 OR SOCK>2) RES>34]: %GRAY%[%WHITE%res%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL3 (!INF AND !ETH) AND (NMAG OR SUP OR RW) (SOCK=0 OR SOCK>2) (RES>34 AND CLVL<81)]: %GRAY%[%WHITE%res%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[ush (!INF AND !ETH) AND (NMAG OR SUP OR RW)  SOCK>1]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[uit (!INF AND ETH) AND (NMAG OR SUP OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[uit (!INF AND !ETH) AND (NMAG OR SUP OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI ETH]: %GRAY%ETH %GOLD%%NAME%
@@ -373,6 +386,6 @@ ItemDisplay[(ARMOR OR WEAPON) RARE ETH CLVL<60]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) CLVL<60]: %NAME%
 ItemDisplay[(ARMOR OR WEAPON) (SUP OR NMAG) !ETH SOCK>1 CLVL<40]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WEAPON (SUP OR NMAG) ETH SOCK=4 CLVL<60]: %GRAY%ETH %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(ARMOR OR WEAPON) (SUP OR NMAG) (EXC OR ELT) !ETH SOCK>1 CLVL>39 AND CLVL<80]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(ARMOR OR WEAPON) (SUP OR NMAG) (EXC OR ELT) !ETH SOCK>1 CLVL>39 AND CLVL<81]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(ARMOR OR WEAPON) INF]:
 ItemDisplay[(ARMOR OR WEAPON) CLVL>18]:
