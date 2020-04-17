@@ -105,27 +105,9 @@ ItemDisplay[r32]: %PURPLE%»» »» »» %RED%%RUNENAME% %GREEN%[32]%PURPLE% «�
 ItemDisplay[r33]: %PURPLE%»» »» »» »» %RED%%RUNENAME% %GREEN%[33]%PURPLE% «« «« «« ««
 
 //Gems
-ItemDisplay[gfv DIFFICULTY>0]:
-ItemDisplay[gfw DIFFICULTY>0]:
-ItemDisplay[gfg DIFFICULTY>0]:
-ItemDisplay[gfr DIFFICULTY>0]:
-ItemDisplay[gfb DIFFICULTY>0]:
-ItemDisplay[gfy DIFFICULTY>0]:
-ItemDisplay[skf DIFFICULTY>0]:
-ItemDisplay[gsv DIFFICULTY>1]:
-ItemDisplay[gsw DIFFICULTY>1]:
-ItemDisplay[gsg DIFFICULTY>1]:
-ItemDisplay[gsr DIFFICULTY>1]:
-ItemDisplay[gsb DIFFICULTY>1]:
-ItemDisplay[gsy DIFFICULTY>1]:
-ItemDisplay[sku DIFFICULTY>1]:
-ItemDisplay[gcv]: %GRAY%chip
-ItemDisplay[gcw]: %GRAY%chip
-ItemDisplay[gcg]: %GRAY%chip
-ItemDisplay[gcr]: %GRAY%chip
-ItemDisplay[gcb]: %GRAY%chip
-ItemDisplay[gcy]: %GRAY%chip
-ItemDisplay[skc]: %GRAY%chip
+ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>0]:
+ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) DIFFICULTY>1]:
+ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]: %GRAY%chip
 ItemDisplay[gzv]: %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]
 ItemDisplay[glw]: %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]
 ItemDisplay[glg]: %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]
