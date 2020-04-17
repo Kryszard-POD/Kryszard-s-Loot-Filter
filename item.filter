@@ -86,8 +86,8 @@ ItemDisplay[r07]: %ORANGE%%RUNENAME% %GRAY%[7]
 ItemDisplay[r08]: %ORANGE%%RUNENAME% %TAN%[8]
 ItemDisplay[r09]: %ORANGE%%RUNENAME% %TAN%[9]
 ItemDisplay[r10]: %ORANGE%%RUNENAME% %GRAY%[10]
-ItemDisplay[r11]: %ORANGE%%RUNENAME% %GRAY%[11]
-ItemDisplay[r12]: %ORANGE%%RUNENAME% %GRAY%[12]
+ItemDisplay[r11]: %ORANGE%%RUNENAME% %TAN%[11]
+ItemDisplay[r12]: %ORANGE%%RUNENAME% %TAN%[12]
 ItemDisplay[r13]: %ORANGE%%RUNENAME% %TAN%[13]
 ItemDisplay[r14]: %ORANGE%%RUNENAME% %GRAY%[14]
 ItemDisplay[r15]: %ORANGE%%RUNENAME% %TAN%[15]
@@ -211,8 +211,8 @@ ItemDisplay[uvc MAG !ETH]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]
 ItemDisplay[uit MAG !ETH]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]
 
 //Rare Gloves, Belts and Boots
-ItemDisplay[(EQ4 OR EQ5 OR EQ6) (EXC OR ELT) ETH RARE]: %GRAY%ETH %YELLOW%%NAME%
-ItemDisplay[(EQ4 OR EQ5 OR EQ6) (EXC OR ELT) RARE]: %NAME%
+ItemDisplay[(EQ4 OR EQ5 OR EQ6) ETH RARE]: %GRAY%ETH %YELLOW%%NAME%
+ItemDisplay[(EQ4 OR EQ5 OR EQ6) RARE]: %NAME%
 
 //+3bo weapons and +3/20 gloves
 ItemDisplay[WEAPON TABSK34>2]: %RED%»» »» »» %GREEN%3bo weapon%RED% «« «« ««
