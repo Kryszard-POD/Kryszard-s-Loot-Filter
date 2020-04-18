@@ -1,4 +1,4 @@
-// Kryszard's Loot Filter ver 1.1
+// Kryszard's Loot Filter ver 1.2
 //
 // twitch.tv/kryszard
 //
@@ -40,12 +40,7 @@ ItemDisplay[vps CLVL>40]:
 ItemDisplay[yps]: %GREEN%!%WHITE%a
 ItemDisplay[key]: %GRAY%key
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling
-ItemDisplay[gpm CLVL>12]:
-ItemDisplay[opm CLVL>12]:
-ItemDisplay[opl CLVL>12]:
-ItemDisplay[ops CLVL>12]:
-ItemDisplay[gps CLVL>12]:
-ItemDisplay[gpl CLVL>12]:
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>12]:
 
 //Essences
 ItemDisplay[tes]: %ORANGE%Suffering %GRAY%[Andariel]
@@ -65,7 +60,7 @@ ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
 ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
 ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
 
-//Wirt Leg and so
+//Wirt Leg
 ItemDisplay[leg]: %NAME%
 ItemDisplay[leg SOCK>0]: %NAME% [%SOCKETS%]
 
@@ -156,6 +151,7 @@ ItemDisplay[WEAPON (WP6 AND CL7) (MAG OR RARE)]: %NAME%
 ItemDisplay[WP12 MAG ETH]: %GRAY%ETH %BLUE%%NAME%
 ItemDisplay[WP12 RARE ETH]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[WP12 (MAG OR RARE)]: %NAME%
+ItemDisplay[(wsp OR 9ws OR 7ws) MAG !ETH]: %NAME%
 
 //Charms
 ItemDisplay[cm1 ILVL>90]: %NAME% %PURPLE%° %WHITE%[%ILVL%]
@@ -190,86 +186,45 @@ ItemDisplay[uit MAG !ETH]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) ETH RARE]: %GRAY%ETH %YELLOW%%NAME%
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) RARE]: %NAME%
 
-//+3bo weapons and +3/20 gloves
+//+3bo weapons and +3/20 gloves and +6foh scpeters
 ItemDisplay[WEAPON TABSK34>2]: %RED%»» »» »» %GREEN%3bo weapon%RED% «« «« ««
 ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) IAS>19]: %RED%»» »» »» %GREEN%3/20 Gloves%RED% «« «« ««
+ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) IAS>19]: %RED%»» »» »» %GREEN%3/20 Gloves%RED% «« «« ««
+ItemDisplay[WP13 (TABSK24>2 AND SK119>2)]: %RED%»» »» »» %GREEN%FoH Scepter%RED% «« «« ««
 
 //OK UNIQUE Items
 //belts
-ItemDisplay[zlb UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[zvb UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[zhb UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[umc UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[(zlb OR zvb OR zhb OR umc) UNI !ETH !ID]: %PURPLE%%NAME%
 //armors
-ItemDisplay[xhn UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[xtp UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[xlt UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[upl UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[(xhn OR xtp OR xlt OR upl) UNI !ETH !ID]: %PURPLE%%NAME%
 //gloves
-ItemDisplay[uvg UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[uhg UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[(uvg OR uhg) UNI !ETH !ID]: %PURPLE%%NAME%
 //helmets
-ItemDisplay[xh9 UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[usk UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre) UNI !ETH !ID]: %PURPLE%%NAME%
 ItemDisplay[uhm UNI !ETH !ID]: %GREEN%½ %PURPLE%%NAME%
-ItemDisplay[ci2 UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[baa UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[bac UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[dra UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[dre UNI !ETH !ID]: %PURPLE%%NAME%
 //boots
-ItemDisplay[lbt UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[xhb UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[uhb UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[(lbt OR xhb OR uhb) UNI !ETH !ID]: %PURPLE%%NAME%
 //jewelry
 ItemDisplay[UNI !ID rin]: %RED%»» »» %PURPLE%UNIQUE RING HYPE%RED% «« ««
 ItemDisplay[UNI !ID amu]: %RED%»» »» %PURPLE%UNIQUE AMULET HYPE%RED% «« ««
 ItemDisplay[UNI !ID jew]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 //shields
 ItemDisplay[uow UNI !ID]: %PURPLE%%NAME%
-ItemDisplay[pa9 UNI !ETH !ID]: %PURPLE%%NAME%
-ItemDisplay[nea UNI !ETH !ID]: %PURPLE%%NAME%
+ItemDisplay[(pa9 OR nea) UNI !ETH !ID]: %PURPLE%%NAME%
 //weapons
-ItemDisplay[7cr UNI !ETH !ID]: %GREEN%½%PURPLE%%NAME%
-ItemDisplay[7fl UNI !ETH !ID]: %GREEN%½%PURPLE%%NAME%
+ItemDisplay[(7cr OR 7fl) UNI !ETH !ID]: %GREEN%½%PURPLE%%NAME%
+ItemDisplay[ama UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
+ItemDisplay[(oba OR ama) UNI !ETH !ID]: %PURPLE%%NAME%
 
 //GG Uniq Items
-//belts
-ItemDisplay[ulc UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[ulc UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
-//armors
-ItemDisplay[xea UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[xea UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
-ItemDisplay[uar UNI ETH !ID]: %GRAY%ETH %GREEN%½ %PURPLE%%NAME%
+ItemDisplay[(ulc OR xea OR uap OR ulm OR ci3 OR xtb OR 7gw OR obf) UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
+ItemDisplay[(ulc OR xea OR urn OR uap OR ulm OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf) UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
+//Sacred Armor only below
+ItemDisplay[uar UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME% %GREEN%Templar (sorry)
 ItemDisplay[uar UNI !ID]: %RED%»» »» %GREEN%½ %PURPLE%%NAME%%RED% «« ««
-//helmets
-ItemDisplay[urn UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
-ItemDisplay[uap UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[uap UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
-ItemDisplay[ulm UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[ulm UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
-ItemDisplay[ci3 UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[ci3 UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
-//boots
-ItemDisplay[xtb UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[xtb UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
-//shields
-ItemDisplay[uit UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
-//weapons
-ItemDisplay[6lw UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
-ItemDisplay[7gw UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[7gw UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
-ItemDisplay[7gd UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
-ItemDisplay[obf UNI ETH !ID]: %GRAY%ETH %PURPLE%%NAME%
-ItemDisplay[obf UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 
 //Good set parts
-ItemDisplay[amu SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
-ItemDisplay[xtb SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
-ItemDisplay[uar SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
-ItemDisplay[ci3 SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
-ItemDisplay[7qr SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
-ItemDisplay[uth SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
+ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
 
 //RuneWord Bases
 //Spirit Swords
