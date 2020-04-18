@@ -154,9 +154,9 @@ ItemDisplay[WP12 (MAG OR RARE)]: %NAME%
 ItemDisplay[(wsp OR 9ws OR 7ws) MAG !ETH]: %NAME%
 
 //Charms
-ItemDisplay[cm1 ILVL>90]: %NAME% %PURPLE%° %WHITE%[%ILVL%]
-ItemDisplay[cm2 ILVL>90]: %NAME% %PURPLE%°° %WHITE%[%ILVL%]
-ItemDisplay[cm3 ILVL>90]: %NAME% %PURPLE%°°° %WHITE%[%ILVL%]
+ItemDisplay[cm1 ILVL>90]: %NAME% %PURPLE%° %ORANGE%[%WHITE%%ILVL%%ORANGE%]
+ItemDisplay[cm2 ILVL>90]: %NAME% %PURPLE%°° %ORANGE%[%WHITE%%ILVL%%ORANGE%]
+ItemDisplay[cm3 ILVL>90]: %NAME% %PURPLE%°°° %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm1]: %NAME% %PURPLE%° %GRAY%[%ILVL%]
 ItemDisplay[cm2]: %NAME% %PURPLE%°° %GRAY%[%ILVL%]
 ItemDisplay[cm3]: %NAME% %PURPLE%°°° %GRAY%[%ILVL%]
