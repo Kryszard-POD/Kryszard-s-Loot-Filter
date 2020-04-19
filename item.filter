@@ -61,8 +61,9 @@ ItemDisplay[ma5]: %PURPLE%Map Relic %GRAY%[Tier %WHITE%2%GRAY%]
 ItemDisplay[ma6]: %PURPLE%Map Relic %GRAY%[Tier %GOLD%3%GRAY%]
 
 //Wirt Leg
-ItemDisplay[leg]: %NAME%
 ItemDisplay[leg SOCK>0]: %NAME% [%SOCKETS%]
+ItemDisplay[leg]: %NAME%
+
 
 //Runes
 ItemDisplay[r01]: %ORANGE%%RUNENAME% %GRAY%[1]
