@@ -30,28 +30,26 @@ ItemDisplay[(hp4 OR mp4) DIFFICULTY>1]:
 
 //Utilites
 ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%tp
-ItemDisplay[tsc CLVL>40]:
 ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%id
-ItemDisplay[isc CLVL>40]:
+ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%stamina
+ItemDisplay[(tsc OR isc OR vps) CLVL>40]:
 ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%thaw
 ItemDisplay[wms CLVL>60]:
-ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%stamina
-ItemDisplay[vps CLVL>40]:
 ItemDisplay[yps]: %GREEN%!%WHITE%a
 ItemDisplay[key]: %GRAY%key
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>12]:
 
 //Essences
-ItemDisplay[tes]: %ORANGE%Suffering %GRAY%[Andariel]
-ItemDisplay[ceh]: %ORANGE%Hatred %GRAY%[Mephisto]
-ItemDisplay[bet]: %ORANGE%Terror %GRAY%[Diablo]
-ItemDisplay[fed]: %ORANGE%Destruction %GRAY%[Baal]
+ItemDisplay[tes]: %NAME% %GRAY%[Andariel]
+ItemDisplay[ceh]: %NAME% %GRAY%[Mephisto]
+ItemDisplay[bet]: %NAME% %GRAY%[Diablo]
+ItemDisplay[fed]: %NAME% %GRAY%[Baal]
 
 //Uber Keys
-ItemDisplay[pk1]: %ORANGE%Terror %GRAY%[Countess]
-ItemDisplay[pk2]: %ORANGE%Hate %GRAY%[Summoner]
-ItemDisplay[pk3]: %ORANGE%Destruction %GRAY%[Nihlathak]
+ItemDisplay[pk1]: %NAME% %GRAY%[Countess]
+ItemDisplay[pk2]: %NAME% %GRAY%[Summoner]
+ItemDisplay[pk3]: %NAME% %GRAY%[Nihlathak]
 
 //PoD Items
 ItemDisplay[cx7]: %RED%»»»» %NAME%%RED% ««««
