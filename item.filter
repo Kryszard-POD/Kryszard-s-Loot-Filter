@@ -84,12 +84,12 @@ ItemDisplay[r16]: %ORANGE%%RUNENAME% %GRAY%[16]
 ItemDisplay[r17]: %ORANGE%%RUNENAME% %GRAY%[17]
 ItemDisplay[r18]: %ORANGE%%RUNENAME% %WHITE%[18]
 ItemDisplay[r19]: %ORANGE%%RUNENAME% %WHITE%[19]
-ItemDisplay[r20]: %PURPLE%» %RED%%RUNENAME% %WHITE%[20]%PURPLE% «
-ItemDisplay[r21]: %PURPLE%» %RED%%RUNENAME% %WHITE%[21]%PURPLE% «
-ItemDisplay[r22]: %PURPLE%» %RED%%RUNENAME% %WHITE%[22]%PURPLE% «
-ItemDisplay[r23]: %PURPLE%» %RED%%RUNENAME% %WHITE%[23]%PURPLE% «
-ItemDisplay[r24]: %PURPLE%» » %RED%%RUNENAME% %WHITE%[24]%PURPLE% « «
-ItemDisplay[r25]: %PURPLE%» » %RED%%RUNENAME% %WHITE%[25]%PURPLE% « «
+ItemDisplay[r20]: %PURPLE%» %RED%%RUNENAME% %ORANGE%[20]%PURPLE% «
+ItemDisplay[r21]: %PURPLE%» %RED%%RUNENAME% %ORANGE%[21]%PURPLE% «
+ItemDisplay[r22]: %PURPLE%» %RED%%RUNENAME% %ORANGE%[22]%PURPLE% «
+ItemDisplay[r23]: %PURPLE%» %RED%%RUNENAME% %ORANGE%[23]%PURPLE% «
+ItemDisplay[r24]: %PURPLE%» » %RED%%RUNENAME% %ORANGE%[24]%PURPLE% « «
+ItemDisplay[r25]: %PURPLE%» » %RED%%RUNENAME% %ORANGE%[25]%PURPLE% « «
 ItemDisplay[r26]: %PURPLE%»» »» %RED%%RUNENAME% %GREEN%[26]%PURPLE% «« ««
 ItemDisplay[r27]: %PURPLE%»» »» »» %RED%%RUNENAME% %GREEN%[27]%PURPLE% «« «« ««
 ItemDisplay[r28]: %PURPLE%»» »» »» »» »» »» %RED%%RUNENAME% %GREEN%[28]%PURPLE% «« «« «« «« «« ««
