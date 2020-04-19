@@ -55,10 +55,10 @@ ItemDisplay[pk3]: %ORANGE%Destruction %GRAY%[Nihlathak]
 
 //PoD Items
 ItemDisplay[cx7]: %RED%»»»» %NAME%%RED% ««««
-ItemDisplay[ma2]: %PURPLE%Map Relic %GRAY%[T%ORANGE%4%GRAY%]
-ItemDisplay[ma4]: %PURPLE%Map Relic %GRAY%[T%RED%1%GRAY%]
-ItemDisplay[ma5]: %PURPLE%Map Relic %GRAY%[T%WHITE%2%GRAY%]
-ItemDisplay[ma6]: %PURPLE%Map Relic %GRAY%[T%GOLD%3%GRAY%]
+ItemDisplay[ma2]: %PURPLE%Map Relic %GRAY%[%ORANGE%T4%GRAY%]
+ItemDisplay[ma4]: %PURPLE%Map Relic %GRAY%[T1]
+ItemDisplay[ma5]: %PURPLE%Map Relic %GRAY%[%WHITE%T2%GRAY%]
+ItemDisplay[ma6]: %PURPLE%Map Relic %GRAY%[%GOLD%T3%GRAY%]
 
 //Wirt Leg
 ItemDisplay[leg SOCK>0]: %NAME% %TAN%[%SOCKETS%]
