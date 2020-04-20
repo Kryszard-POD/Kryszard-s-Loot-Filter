@@ -153,16 +153,19 @@ ItemDisplay[WP12 (MAG OR RARE)]: %NAME%
 ItemDisplay[(wsp OR 9ws OR 7ws) MAG !ETH]: %NAME%
 
 //Charms
-ItemDisplay[cm1]: %NAME% %PURPLE%°%CONTINUE% 
-ItemDisplay[cm2]: %NAME% %PURPLE%°°%CONTINUE% 
-ItemDisplay[cm3]: %NAME% %PURPLE%°°°%CONTINUE% 
-ItemDisplay[cm1 ILVL>90]: %NAME%%CONTINUE% %ORANGE%[%WHITE%%ILVL%%ORANGE%]%CONTINUE%
-ItemDisplay[cm2 ILVL>90]: %NAME%%CONTINUE% %ORANGE%[%WHITE%%ILVL%%ORANGE%]%CONTINUE%
-ItemDisplay[cm3 ILVL>90]: %NAME%%CONTINUE% %ORANGE%[%WHITE%%ILVL%%ORANGE%]%CONTINUE%
-ItemDisplay[cm1 ILVL<91]: %NAME%%CONTINUE% %GRAY%[%ILVL%]%CONTINUE%
-ItemDisplay[cm2 ILVL<91]: %NAME%%CONTINUE% %GRAY%[%ILVL%]%CONTINUE%
-ItemDisplay[cm3 ILVL<91]: %NAME%%CONTINUE% %GRAY%[%ILVL%]%CONTINUE%
-ItemDisplay[cm3 ITEMSTAT22>8]: %TAN%Max Dmg %Blue%Grand Charm %NAME%%CONTINUE%
+ItemDisplay[cm1]: %PURPLE%°%CONTINUE% 
+ItemDisplay[cm2]: %PURPLE%°°%CONTINUE% 
+ItemDisplay[cm3]: %PURPLE%°°°%CONTINUE% 
+ItemDisplay[cm1 (ID OR !ID)]: %NAME% %NAME%%CONTINUE%
+ItemDisplay[cm2 (ID OR !ID)]: %NAME% %NAME%%CONTINUE%
+ItemDisplay[cm3 (ID OR !ID)]: %NAME% %NAME%%CONTINUE%
+ItemDisplay[cm1 ILVL>90]: %NAME%%CONTINUE% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
+ItemDisplay[cm2 ILVL>90]: %NAME%%CONTINUE% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
+ItemDisplay[cm3 ILVL>90]: %NAME%%CONTINUE% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
+ItemDisplay[cm1 ILVL<91]: %NAME%%CONTINUE% %GRAY%[%ILVL%]
+ItemDisplay[cm2 ILVL<91]: %NAME%%CONTINUE% %GRAY%[%ILVL%]
+ItemDisplay[cm3 ILVL<91]: %NAME%%CONTINUE% %GRAY%[%ILVL%]
+ItemDisplay[cm3 ITEMSTAT22>8]: %TAN%Max Dmg %BLUE%Grand Charm %NAME%%CONTINUE%
 
 
 //Rings and amulets
