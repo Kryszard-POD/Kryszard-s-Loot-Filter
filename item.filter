@@ -153,7 +153,9 @@ ItemDisplay[WP12 (MAG OR RARE)]: %NAME%
 ItemDisplay[(wsp OR 9ws OR 7ws) MAG !ETH]: %NAME%
 
 //Charms
+ItemDisplay[cm3 (ITEMSTAT22>7 AND ITEMSTAT6>0)]: %TAN%Max Dmg %RED%Life %BLUE%Grand Charm %GRAY%[%ILVL%]
 ItemDisplay[cm3 ITEMSTAT22>8]: %TAN%Max Dmg %BLUE%Grand Charm %GRAY%[%ILVL%]
+
 ItemDisplay[cm1 ILVL>90]: %NAME% %PURPLE%° %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm2 ILVL>90]: %NAME% %PURPLE%°° %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm3 ILVL>90]: %NAME% %PURPLE%°°° %ORANGE%[%WHITE%%ILVL%%ORANGE%]
