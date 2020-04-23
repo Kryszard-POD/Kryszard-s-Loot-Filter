@@ -182,11 +182,11 @@ ItemDisplay[cm1 !UNI (RES>0 AND LIFE>0)]: %PURPLE%ALL %WHITE%Res %RED%Life %BLUE
 ItemDisplay[cm1 !UNI (RES>0 AND ITEMSTAT96>0)]: %PURPLE%ALL %WHITE%Res %ORANGE%frw %BLUE%Small Charm %GRAY%[%ILVL%]
 ItemDisplay[cm1 !UNI (RES>0 AND ITEMSTAT99>0)]: %PURPLE%ALL %WHITE%Res %ORANGE%FHR %BLUE%Small Charm %GRAY%[%ILVL%]
 ItemDisplay[cm1 !UNI RES>0]: %PURPLE%ALL %WHITE%Res %BLUE%Small Charm %GRAY%[%ILVL%]
-ItemDisplay[cm1 ITEMSTAT39>9]: %RED%Fire %WHITE%Res %BLUE%Small Charm %GRAY%[%ILVL%]
-ItemDisplay[cm1 ITEMSTAT41>9]: %YELLOW%Light %WHITE%Res %BLUE%Small Charm %GRAY%[%ILVL%]
-ItemDisplay[cm1 ITEMSTAT43>9]: %BLUE%Cold %WHITE%Res %BLUE%Small Charm %GRAY%[%ILVL%]
-ItemDisplay[cm1 ITEMSTAT45>9]: %GREEN%Psn %WHITE%Res %BLUE%Small Charm %GRAY%[%ILVL%]
-ItemDisplay[cm1 ITEMSTAT80>5]: %GREEN%MF %BLUE%Small Charm %GRAY%[%ILVL%]
+ItemDisplay[cm1 !UNI ITEMSTAT39>9]: %RED%Fire %WHITE%Res %BLUE%Small Charm %GRAY%[%ILVL%]
+ItemDisplay[cm1 !UNI ITEMSTAT41>9]: %YELLOW%Light %WHITE%Res %BLUE%Small Charm %GRAY%[%ILVL%]
+ItemDisplay[cm1 !UNI ITEMSTAT43>9]: %BLUE%Cold %WHITE%Res %BLUE%Small Charm %GRAY%[%ILVL%]
+ItemDisplay[cm1 !UNI ITEMSTAT45>9]: %GREEN%Psn %WHITE%Res %BLUE%Small Charm %GRAY%[%ILVL%]
+ItemDisplay[cm1 !UNI ITEMSTAT80>5]: %GREEN%MF %BLUE%Small Charm %GRAY%[%ILVL%]
 
 //Skillers
 ItemDisplay[cm3 (TABSK2>0 AND ITEMSTAT99>0)]: %ORANGE%FHR %PURPLE%Java Skiller %GRAY%[%ILVL%]
