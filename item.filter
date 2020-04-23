@@ -167,8 +167,8 @@ ItemDisplay[cm2 (ITEMSTAT22>3 AND ITEMSTAT0>0)]: %TAN%Max Dmg %DGREEN%str %BLUE%
 ItemDisplay[cm2 (ITEMSTAT22>3 AND ITEMSTAT96>0)]: %TAN%Max Dmg %ORANGE%frw %BLUE%Large Charm %GRAY%[%ILVL%]
 ItemDisplay[cm2 (ITEMSTAT22>3 AND ITEMSTAT99>0)]: %TAN%Max Dmg %ORANGE%FHR %BLUE%Large Charm %GRAY%[%ILVL%]
 ItemDisplay[cm2 ITEMSTAT22>4]: %TAN%Max Dmg %BLUE%Large Charm %GRAY%[%ILVL%]
-ItemDisplay[cm2 MAG (RES>4 AND LIFE>0) OR (RES>0 AND LIFE>29)]: %PURPLE%ALL %WHITE%Res %RED%Life %BLUE%Large Charm %GRAY%[%ILVL%]
-ItemDisplay[cm2 MAG RES>6]: %PURPLE%ALL %WHITE%Res %BLUE%Large Charm %GRAY%[%ILVL%]
+ItemDisplay[cm2 !UNI (RES>4 AND LIFE>0) OR (RES>0 AND LIFE>29)]: %PURPLE%ALL %WHITE%Res %RED%Life %BLUE%Large Charm %GRAY%[%ILVL%]
+ItemDisplay[cm2 !UNI RES>6]: %PURPLE%ALL %WHITE%Res %BLUE%Large Charm %GRAY%[%ILVL%]
 //Skillers
 ItemDisplay[cm3 (TABSK2>0 AND ITEMSTAT99>0)]: %ORANGE%FHR %PURPLE%Java Skiller %GRAY%[%ILVL%]
 ItemDisplay[cm3 (TABSK8>0 AND ITEMSTAT99>0)]: %ORANGE%FHR %PURPLE%Fire Skiller %GRAY%[%ILVL%]
