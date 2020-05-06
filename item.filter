@@ -276,7 +276,7 @@ ItemDisplay[ring MAG]: %NAME% %GRAY%[%ILVL%]
 ItemDisplay[amu MAG]: %NAME% %GRAY%[%ILVL%]
 
 //Jewels
-ItemDisplay[jew MAG !ID]: %GRAY%»» %BLUE%%NAME%%GRAY% ««
+ItemDisplay[jew MAG !ID]: %WHITE%»» %BLUE%%NAME%%WHITE% ««
 ItemDisplay[jew RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
 
 //Craftables
@@ -340,7 +340,7 @@ ItemDisplay[(crs OR bsd OR lsd) (NMAG OR RW) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 //Holy Thunder/Rift
 ItemDisplay[wsp (ETH AND RW) SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[wsp (ETH AND NMAG) SOCK=4]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[wsp (NMAG OR RW)SOCK=4]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[wsp (NMAG OR RW) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 //HOTO AND CTA
 ItemDisplay[fla (ETH AND RW) SOCK>3]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[fla (ETH AND NMAG) SOCK>3]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
