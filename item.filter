@@ -43,7 +43,7 @@ ItemDisplay[wms CLVL>60]:
 ItemDisplay[yps]: %GREEN%!%WHITE%a
 ItemDisplay[key]: %GRAY%key
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>12]:
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
 
 //Essences
 ItemDisplay[tes]: %NAME% %GRAY%[Andariel]
@@ -66,7 +66,6 @@ ItemDisplay[ma6]: %PURPLE%Map Relic %GRAY%[%GOLD%T3%GRAY%]
 //Wirt Leg
 ItemDisplay[leg SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[leg]: %NAME%
-
 
 //Runes
 ItemDisplay[r01]: %ORANGE%%RUNENAME% %GRAY%[1]
@@ -274,7 +273,6 @@ ItemDisplay[cm2 !ID]: %NAME% %PURPLE%°° %GRAY%[%ILVL%]
 ItemDisplay[cm3 !ID]: %NAME% %PURPLE%°°° %GRAY%[%ILVL%]
 ItemDisplay[cm3 ILVL>90]: %NAME% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
-
 
 //Rings and amulets
 ItemDisplay[rin RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
