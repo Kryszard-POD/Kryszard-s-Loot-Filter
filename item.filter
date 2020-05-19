@@ -1,4 +1,4 @@
-// Kryszard's Loot Filter ver 1.4
+// Kryszard's Loot Filter ver 1.5
 //
 // twitch.tv/kryszard
 //
@@ -11,6 +11,11 @@ ItemDisplay[GOLD<5000 CLVL>79]:
 
 //Throws 35k+
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %TAN%[35k]
+
+//Show me number of sockets on ETH AND ID items
+ItemDisplay[(ARMOR OR WEAPON) ((MAG OR RARE OR SET OR UNI) AND ETH) SOCK>0]: %NAME% %GRAY%ETH %TAN%[%SOCKETS%]
+//Show me number of sockets on ID items
+ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
@@ -32,7 +37,7 @@ ItemDisplay[(hp4 OR mp4) DIFFICULTY>1]:
 ItemDisplay[tsc]: %BLUE%°%GRAY%tp
 ItemDisplay[isc]: %RED%°%GRAY%id
 ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%stamina
-ItemDisplay[(tsc OR isc OR vps) CLVL>40]:
+ItemDisplay[vps CLVL>40]:
 ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%thaw
 ItemDisplay[wms CLVL>60]:
 ItemDisplay[yps]: %GREEN%!%WHITE%a
@@ -299,7 +304,6 @@ ItemDisplay[(EQ4 OR EQ5 OR EQ6) RARE]: %NAME%
 //+3bo weapons and +3/20 gloves and +6foh scpeters
 ItemDisplay[WEAPON TABSK34>2]: %RED%»» »» »» %GREEN%3bo weapon%RED% «« «« ««
 ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) IAS>19]: %RED%»» »» »» %GREEN%3/20 Gloves%RED% «« «« ««
-ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) IAS>19]: %RED%»» »» »» %GREEN%3/20 Gloves%RED% «« «« ««
 ItemDisplay[WP13 (TABSK24>2 AND SK119>2)]: %RED%»» »» »» %GREEN%FoH Scepter%RED% «« «« ««
 
 //OK UNIQUE Items
@@ -420,12 +424,11 @@ ItemDisplay[uit (!INF AND !ETH) AND (NMAG OR RW)  (SOCK=0 OR SOCK=4)]: %GRAY%%NA
 
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI AND ETH AND SOCK=0]: %GRAY%ETH %GOLD%%NAME%
-//Show me number of sockets on ETH AND ID items
-ItemDisplay[(ARMOR OR WEAPON) ((MAG OR RARE OR SET OR UNI OR RW) AND ETH) SOCK>0]: %NAME% %GRAY%ETH %TAN%[%SOCKETS%]
-//Show me number of sockets on ID items
-ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR RW) SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 //Show me every  uniq and set item and runewords
-ItemDisplay[(UNI OR SET OR RW)]: %NAME%
+ItemDisplay[RW]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(UNI OR SET)]: %NAME%
+//Show me every identified item
+ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) ID]: %NAME%
 
 //HIDE EVERYTHING ELSE
 ItemDisplay[(CL1 OR CL2 OR CL4 OR CL6 OR WP11 OR WP12 OR WP13) NMAG ETH CLVL<31]: %GRAY%ETH %NAME%
