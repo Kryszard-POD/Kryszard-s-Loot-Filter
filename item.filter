@@ -283,7 +283,7 @@ ItemDisplay[ring MAG]: %NAME% %GRAY%[%ILVL%]
 ItemDisplay[amu MAG]: %NAME% %GRAY%[%ILVL%]
 
 //Jewels
-ItemDisplay[jew MAG !ID]: %WHITE%»» %BLUE%%NAME%%WHITE% ««
+ItemDisplay[jew MAG !ID]: %TAN%»%WHITE%» %BLUE%%NAME%%WHITE% «%TAN%«
 ItemDisplay[jew RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
 
 //Craftables
