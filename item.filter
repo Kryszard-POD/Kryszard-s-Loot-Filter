@@ -288,13 +288,13 @@ ItemDisplay[jew RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
 
 //Craftables
 ItemDisplay[(ARMOR OR WEAPON) !(NMAG OR MAG OR RARE OR SET OR UNI)]: %NAME%
-ItemDisplay[uvg MAG !ETH]: %NAME% %RED%[nef] %GRAY%[%ILVL%]
-ItemDisplay[xtb MAG !ETH]: %NAME% %RED%[eth] %GRAY%[%ILVL%]
-ItemDisplay[xlg MAG !ETH CLVL<81]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]
-ItemDisplay[ulg MAG !ETH]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]
-ItemDisplay[uvc MAG !ETH]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]
-ItemDisplay[(umg OR xmg) MAG !ETH]: %NAME% %WHITE%[%BLUE%ort%WHITE%] %GRAY%[%ILVL%]
-ItemDisplay[uit MAG !ETH]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]
+ItemDisplay[uvg MAG]: %NAME% %RED%[nef] %GRAY%[%ILVL%]
+ItemDisplay[xtb MAG]: %NAME% %RED%[eth] %GRAY%[%ILVL%]
+ItemDisplay[xlg MAG CLVL<81]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]
+ItemDisplay[ulg MAG]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]
+ItemDisplay[uvc MAG]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]
+ItemDisplay[(umg OR xmg) MAG]: %NAME% %WHITE%[%BLUE%ort%WHITE%] %GRAY%[%ILVL%]
+ItemDisplay[uit MAG]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) ETH RARE]: %GRAY%ETH %YELLOW%%NAME%
