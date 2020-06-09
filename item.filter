@@ -325,7 +325,7 @@ ItemDisplay[UNI !ID jew]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
 ItemDisplay[uow UNI !ID]: %GOLD%»» %PURPLE%%NAME%%GOLD% ««
 ItemDisplay[(pa9 OR nea) UNI !ETH !ID]: %GOLD%»» %PURPLE%%NAME%%GOLD% ««
 //weapons
-ItemDisplay[(7cr OR 7fl) UNI !ETH !ID]: %GOLD%»» %GREEN%½%PURPLE%%NAME%%GOLD% ««
+ItemDisplay[(7cr OR 7fl OR 7kr) UNI !ETH !ID]: %GOLD%»» %GREEN%½%PURPLE%%NAME%%GOLD% ««
 ItemDisplay[ama UNI ETH !ID]: %GOLD%»» %GRAY%ETH %PURPLE%%NAME%%GOLD% ««
 ItemDisplay[(oba OR ama) UNI !ETH !ID]: %GOLD%»» %PURPLE%%NAME%%GOLD% ««
 
