@@ -1,4 +1,4 @@
-// Kryszard's Loot Filter ver 1.8
+// Kryszard's Loot Filter ver 1.9
 //
 // twitch.tv/kryszard
 //
@@ -58,7 +58,7 @@ ItemDisplay[pk3]: %NAME% %GRAY%[Nihlathak]
 
 //PoD Items
 ItemDisplay[cx7]: %RED%»»»» %NAME%%RED% ««««
-ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR maz]: %NAME% %GRAY%[%DGREEN%~ %PURPLE%MAP %DGREEN%~%GRAY%]
+ItemDisplay[ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR maz]: %NAME% %GRAY%[%DGREEN%~ %PURPLE%MAP %DGREEN%~%GRAY%]
 
 //Wirt Leg
 ItemDisplay[leg SOCK>0]: %NAME% %TAN%[%SOCKETS%]
@@ -335,7 +335,8 @@ ItemDisplay[(7wa OR 7fb OR 7gd) (ETH AND NMAG OR RW) (SOCK=4 OR SOCK=5)]: %GRAY%
 ItemDisplay[7fb (ETH AND !INF) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7wa OR 7gd) (ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Breath of the Dying/Last Wish
-ItemDisplay[(7wa OR 7gd OR 7p7 OR 7cr) (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7cr !INF AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7wa OR 7gd OR 7p7) (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Lawbringer
 ItemDisplay[72h (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Chaos
