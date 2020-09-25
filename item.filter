@@ -1,4 +1,4 @@
-// Kryszard's Loot Filter ver 2.0
+// Kryszard's Loot Filter ver 2.1
 //
 // twitch.tv/kryszard
 //
@@ -337,13 +337,13 @@ ItemDisplay[72h (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHI
 //Chaos
 ItemDisplay[9tw (!ETH AND !INF) AND (NMAG OR RW) (SK274>0 AND SK275>0) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%chaos%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Plague
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK277>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3bs%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK278>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3vnm%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK276>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ds%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK271>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ls%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK272>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3woi%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK266>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3bf%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) (!ETH AND !INF) AND (NMAG OR RW) SK262>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3wof%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF AND (NMAG OR RW) SK277>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3bs%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF AND (NMAG OR RW) SK278>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3vnm%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF AND (NMAG OR RW) SK276>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ds%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF AND (NMAG OR RW) SK271>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ls%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF AND (NMAG OR RW) SK272>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3woi%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF AND (NMAG OR RW) SK266>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3bf%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !INF AND (NMAG OR RW) SK262>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3wof%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Armors
 ItemDisplay[xtp !ETH AND (NMAG OR RW) SOCK=2]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(xtp OR utp OR uui) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
