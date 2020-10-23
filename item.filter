@@ -237,8 +237,8 @@ ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
 
 //Rings and amulets
 ItemDisplay[(rin OR amu) RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
-ItemDisplay[(ring OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
-ItemDisplay[(ring OR amu) MAG]: %NAME% %GRAY%[%ILVL%]
+ItemDisplay[(rin OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
+ItemDisplay[(rin OR amu) MAG]: %NAME% %GRAY%[%ILVL%]
 
 //Jewels
 ItemDisplay[jew MAG !ID]: %TAN%»%WHITE%» %BLUE%%NAME%%WHITE% «%TAN%«
