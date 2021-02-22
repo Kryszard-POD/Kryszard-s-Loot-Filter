@@ -260,7 +260,7 @@ ItemDisplay[(EQ4 OR EQ5 OR EQ6) RARE]: %NAME%
 //+3bo weapons and +3/20 gloves and +6foh scpeters
 ItemDisplay[WEAPON TABSK34>2]: %RED%»» »» »» %GREEN%3bo weapon%RED% «« «« ««
 ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) AND IAS>19]: %RED%»» »» »» %GREEN%3sk-20ias Gloves%RED% «« «« ««
-ItemDisplay[WP13 (TABSK24>2 AND SK119>2)]: %RED%»» »» »» %GREEN%FoH Scepter%RED% «« «« ««
+ItemDisplay[WP13 (TABSK24>2 AND SK121>2)]: %RED%»» »» »» %GREEN%FoH Scepter%RED% «« «« ««
 
 //OK UNIQUE Items
 //belts
